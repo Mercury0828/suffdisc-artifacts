@@ -4,8 +4,7 @@
 
 Code, data and recorded results for the paper
 
-> J. Shen and H. Zhong, *Which Provenance Fields Determine the Outcome? Certified Discovery of Distribution-Valued Metric
-> Dependencies*, submitted to the IEEE International Conference on Data Engineering (ICDE).
+> J. Shen and H. Zhong, *SUFFDISC: Certified Discovery of Metric Functional Dependencies from Sampled Distributions*, submitted to the IEEE International Conference on Data Engineering (ICDE).
 
 SUFFDISC discovers inclusion-minimal field sets whose groups of execution records have outcome distributions within a Hellinger
 threshold, with a finite-shot guarantee for the true distributions.
