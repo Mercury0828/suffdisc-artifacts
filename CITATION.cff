@@ -12,3 +12,8 @@ authors:
     orcid: "https://orcid.org/0009-0005-7952-007X"
 license: MIT
 repository-code: "https://github.com/Mercury0828/suffdisc-artifacts"
+doi: "10.5281/zenodo.24120475"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24120475"
+    description: "Zenodo archive (v1.0.0)"

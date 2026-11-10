@@ -1,5 +1,7 @@
 # SUFFDISC — artefacts
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24120475.svg)](https://doi.org/10.5281/zenodo.24120475)
+
 Code, data and recorded results for the paper
 
 > J. Shen and H. Zhong, *Which Provenance Fields Determine the Outcome? Certified Discovery of Distribution-Valued Metric
