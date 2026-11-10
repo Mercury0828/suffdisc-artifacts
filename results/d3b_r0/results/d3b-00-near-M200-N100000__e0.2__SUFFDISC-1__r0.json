@@ -1,0 +1,70 @@
+{
+ "method": "SUFFDISC-1",
+ "version": "v1-net",
+ "validator": {
+  "pivot": true,
+  "net": true,
+  "net_h": 0.125,
+  "net_min": 256,
+  "net_kmax_frac": 0.25
+ },
+ "rule": "v1",
+ "kl_refined_pairs": 0,
+ "kl_upper_nm": 0,
+ "n_canonical": 0,
+ "status": "complete",
+ "eps": 0.2,
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "key_width": 6,
+  "block": 1024,
+  "seed": 0
+ },
+ "cover_plus": 877,
+ "cover_minus": 877,
+ "resumed": 0,
+ "n_dist": 523127,
+ "t_sample": 0.6851227000006475,
+ "t_validate": 0.061761299992213026,
+ "t_hitting": 0.020904400007566437,
+ "iterations": 1,
+ "n_pivot_certified_groups": 15,
+ "n_full_groups": 0,
+ "irreducible_seen": 0,
+ "n_boundary": 0,
+ "n_net_groups": 1,
+ "n_net_abandoned": 0,
+ "n_net_pairs_certified": 19603191,
+ "t_labels": 4.9000082071870565e-06,
+ "S": [
+  149
+ ],
+ "certified_sufficient_exists": true,
+ "labels": {
+  "149": "certified_needed"
+ },
+ "t_total": 2.630208799993852,
+ "job": {
+  "instance": "data/sim/d3b-00-near-M200-N100000",
+  "eps": 0.2,
+  "rep": 0,
+  "time_limit": 3600,
+  "batch": "d3b_r0",
+  "id": "d3b-00-near-M200-N100000__e0.2__SUFFDISC-1__r0",
+  "method": "SUFFDISC-1",
+  "knobs": {
+   "rounds": 2,
+   "window": 2,
+   "pivot": true,
+   "net": true,
+   "net_h": 0.125,
+   "net_min": 256
+  }
+ },
+ "relation_sha256": "8f1734599b75039d0f37cd2a4e2b25916ef17926f31f7a497b6694b0f3553ba4",
+ "t_load": 0.5230932999984361,
+ "t_cpu": 1.9375,
+ "peak_mem_bytes": 280985600,
+ "core": 30
+}

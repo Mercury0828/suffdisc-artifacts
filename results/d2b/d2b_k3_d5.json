@@ -1,0 +1,530 @@
+{
+ "relation": "data/sim/dsa_pilot.npz",
+ "fields_total": 135,
+ "fields_meaningful": 115,
+ "field_report_counts": {
+  "declared_identifiers": 5,
+  "data_identifiers": 0,
+  "constant": 13,
+  "mostly_missing": 2,
+  "meaningful": 115
+ },
+ "exact_or_observed": {
+  "N": 1440,
+  "M_meaningful": 115,
+  "census": {
+   "0.05": {
+    "possible": 171908,
+    "certified": 171908,
+    "unresolved": 0,
+    "irreducible": 0,
+    "within_task_pairs": 517680
+   },
+   "0.1": {
+    "possible": 79008,
+    "certified": 79008,
+    "unresolved": 0,
+    "irreducible": 0,
+    "within_task_pairs": 517680
+   },
+   "0.15": {
+    "possible": 9536,
+    "certified": 9536,
+    "unresolved": 0,
+    "irreducible": 0,
+    "within_task_pairs": 517680
+   },
+   "0.2": {
+    "possible": 412,
+    "certified": 412,
+    "unresolved": 0,
+    "irreducible": 0,
+    "within_task_pairs": 517680
+   }
+  },
+  "by_eps": {
+   "0.05": {
+    "status": "complete",
+    "exists": true,
+    "t": 17.716348899994045,
+    "cover_plus": 22210,
+    "cover_minus": 22210,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "calib.epoch"
+    ],
+    "size": 3,
+    "gamma": 2.0,
+    "kappa": 0.0013908205841446453,
+    "labels": {
+     "exec.segment": "certified_needed",
+     "exec.orientation": "certified_needed",
+     "calib.epoch": "certified_needed"
+    },
+    "all_witnessed": true,
+    "c6": {
+     "status": "sufficient",
+     "certified_inclusion_minimal": true,
+     "labels_agree": true
+    }
+   },
+   "0.1": {
+    "status": "complete",
+    "exists": true,
+    "t": 0.5002795000036713,
+    "cover_plus": 10848,
+    "cover_minus": 10848,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "calib.epoch"
+    ],
+    "size": 3,
+    "gamma": 2.0,
+    "kappa": 0.0013908205841446453,
+    "labels": {
+     "exec.segment": "certified_needed",
+     "exec.orientation": "certified_needed",
+     "calib.epoch": "certified_needed"
+    },
+    "all_witnessed": true,
+    "c6": {
+     "status": "sufficient",
+     "certified_inclusion_minimal": true,
+     "labels_agree": true
+    }
+   },
+   "0.15": {
+    "status": "complete",
+    "exists": true,
+    "t": 0.13912760000675917,
+    "cover_plus": 1497,
+    "cover_minus": 1497,
+    "S": [
+     "exec.segment",
+     "pos.q1.prob_meas1_prep0"
+    ],
+    "size": 2,
+    "gamma": 45.0,
+    "kappa": 0.07488796167516612,
+    "labels": {
+     "exec.segment": "certified_needed",
+     "pos.q1.prob_meas1_prep0": "certified_needed"
+    },
+    "all_witnessed": true,
+    "c6": {
+     "status": "sufficient",
+     "certified_inclusion_minimal": true,
+     "labels_agree": true
+    }
+   },
+   "0.2": {
+    "status": "complete",
+    "exists": true,
+    "t": 0.08058270000037737,
+    "cover_plus": 95,
+    "cover_minus": 95,
+    "S": [
+     "pos.q1.prob_meas1_prep0"
+    ],
+    "size": 1,
+    "gamma": 180.0,
+    "kappa": 0.2491886879925823,
+    "labels": {
+     "pos.q1.prob_meas1_prep0": "certified_needed"
+    },
+    "all_witnessed": true,
+    "c6": {
+     "status": "sufficient",
+     "certified_inclusion_minimal": true,
+     "labels_agree": true
+    }
+   }
+  }
+ },
+ "shots_grid": {
+  "1000": {
+   "N": 1440,
+   "M_meaningful": 115,
+   "census": {
+    "0.05": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.1": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.15": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.2": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    }
+   },
+   "by_eps": {
+    "0.05": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2690173000155482,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.1": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2789798000012524,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.15": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2511489000171423,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.2": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.275688199995784,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    }
+   }
+  },
+  "2000": {
+   "N": 1440,
+   "M_meaningful": 115,
+   "census": {
+    "0.05": {
+     "possible": 517680,
+     "certified": 10,
+     "unresolved": 517670,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.1": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.15": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.2": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    }
+   },
+   "by_eps": {
+    "0.05": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2006719000055455,
+     "cover_plus": 679,
+     "cover_minus": 6,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "certified_needed",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.1": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.150514100008877,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.15": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2201916000049096,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.2": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2219400999892969,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    }
+   }
+  },
+  "4000": {
+   "N": 1440,
+   "M_meaningful": 115,
+   "census": {
+    "0.05": {
+     "possible": 517680,
+     "certified": 1263,
+     "unresolved": 516417,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.1": {
+     "possible": 517680,
+     "certified": 6,
+     "unresolved": 517674,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.15": {
+     "possible": 517680,
+     "certified": 0,
+     "unresolved": 517680,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    },
+    "0.2": {
+     "possible": 186195,
+     "certified": 0,
+     "unresolved": 186195,
+     "irreducible": 0,
+     "within_task_pairs": 517680
+    }
+   },
+   "by_eps": {
+    "0.05": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2545736999891233,
+     "cover_plus": 679,
+     "cover_minus": 335,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "certified_needed",
+      "exec.orientation": "certified_needed",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.1": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2343549999932293,
+     "cover_plus": 679,
+     "cover_minus": 3,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "certified_needed",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.15": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.2527814999921247,
+     "cover_plus": 679,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "exec.dd": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    },
+    "0.2": {
+     "status": "complete",
+     "exists": true,
+     "t": 1.0668742999841925,
+     "cover_plus": 27428,
+     "cover_minus": 0,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "calib.epoch"
+     ],
+     "size": 3,
+     "gamma": 2.0,
+     "kappa": 0.0013908205841446453,
+     "labels": {
+      "exec.segment": "minimality_unresolved",
+      "exec.orientation": "minimality_unresolved",
+      "calib.epoch": "minimality_unresolved"
+     },
+     "all_witnessed": false
+    }
+   }
+  }
+ }
+}

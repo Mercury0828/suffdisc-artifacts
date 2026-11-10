@@ -1,0 +1,12 @@
+{
+ "instance": "data/sim/probe-10-mixed-M800-N10000",
+ "eps": 0.1,
+ "rep": 0,
+ "time_limit": 14400,
+ "batch": "d3",
+ "id": "probe-10-mixed-M800-N10000__e0.1__B3__r0",
+ "method": "B3",
+ "knobs": {
+  "block": 512
+ }
+}

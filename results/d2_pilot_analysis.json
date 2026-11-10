@@ -1,0 +1,1323 @@
+{
+ "relation": "data/pilot_rel\\relation.npz",
+ "relation_fields_sha256": "c37dab1172b8c1708d9ac72045b4b75a694bafcaa0e4f12ddebc6a07e4fb21d0",
+ "N": 96,
+ "fields_meaningful": 100,
+ "field_report_counts": {
+  "declared_identifiers": 5,
+  "data_identifiers": 0,
+  "constant": 30,
+  "mostly_missing": 0,
+  "meaningful": 100
+ },
+ "full": {
+  "n": 32768,
+  "eta_v1": 0.02340646947058999,
+  "eta_v2_median": 0.017938428778285477,
+  "by_eps": {
+   "0.05": {
+    "kl": {
+     "u": 0.7433510638297872,
+     "certified": 532,
+     "pass": 47,
+     "possible": 2209,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "witnessed": {
+      "exec.segment": true,
+      "exec.orientation": true,
+      "exec.dd": false,
+      "calib.epoch": true
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    },
+    "v1": {
+     "u": 0.837322695035461,
+     "certified": 367,
+     "pass": 0,
+     "possible": 2256,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "exec.segment",
+      "exec.orientation",
+      "exec.dd",
+      "calib.epoch"
+     ],
+     "size": 4,
+     "gamma": 1.0,
+     "kappa": 0.0,
+     "witnessed": {
+      "exec.segment": true,
+      "exec.orientation": true,
+      "exec.dd": false,
+      "calib.epoch": true
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    }
+   },
+   "0.1": {
+    "kl": {
+     "u": 0.2850177304964539,
+     "certified": 27,
+     "pass": 1586,
+     "possible": 670,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "exec.segment",
+      "exec.dd",
+      "pos.q2.readout_error"
+     ],
+     "size": 3,
+     "gamma": 1.7142857142857142,
+     "kappa": 0.02304964539007092,
+     "witnessed": {
+      "exec.segment": false,
+      "exec.dd": false,
+      "pos.q2.readout_error": true
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    },
+    "v1": {
+     "u": 0.4592198581560284,
+     "certified": 8,
+     "pass": 1212,
+     "possible": 1044,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "exec.segment",
+      "exec.dd",
+      "pos.q2.T2",
+      "pos.q2.readout_error"
+     ],
+     "size": 4,
+     "gamma": 1.263157894736842,
+     "kappa": 0.010638297872340425,
+     "witnessed": {
+      "exec.segment": false,
+      "exec.dd": false,
+      "pos.q2.T2": false,
+      "pos.q2.readout_error": true
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    }
+   },
+   "0.15": {
+    "kl": {
+     "u": 0.04609929078014184,
+     "certified": 0,
+     "pass": 2152,
+     "possible": 104,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "exec.segment",
+      "pos.q0.T1"
+     ],
+     "size": 2,
+     "gamma": 3.4285714285714284,
+     "kappa": 0.0673758865248227,
+     "witnessed": {
+      "exec.segment": false,
+      "pos.q0.T1": false
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    },
+    "v1": {
+     "u": 0.12234042553191489,
+     "certified": 0,
+     "pass": 1980,
+     "possible": 276,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "calib.epoch",
+      "pos.q0.T2",
+      "pos.q2.T2"
+     ],
+     "size": 3,
+     "gamma": 2.1818181818181817,
+     "kappa": 0.031914893617021274,
+     "witnessed": {
+      "calib.epoch": false,
+      "pos.q0.T2": false,
+      "pos.q2.T2": false
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    }
+   },
+   "0.2": {
+    "kl": {
+     "u": 0.0004432624113475177,
+     "certified": 0,
+     "pass": 2255,
+     "possible": 1,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "exec.orientation"
+     ],
+     "size": 1,
+     "gamma": 24.0,
+     "kappa": 0.48936170212765956,
+     "witnessed": {
+      "exec.orientation": false
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    },
+    "v1": {
+     "u": 0.0017730496453900709,
+     "certified": 0,
+     "pass": 2252,
+     "possible": 4,
+     "within_task_pairs": 2256,
+     "irreducible": 0,
+     "exists": true,
+     "S": [
+      "exec.orientation"
+     ],
+     "size": 1,
+     "gamma": 24.0,
+     "kappa": 0.48936170212765956,
+     "witnessed": {
+      "exec.orientation": false
+     },
+     "all_witnessed": false,
+     "irreducible_certified": 0,
+     "irreducible_share_of_violating": 0.0,
+     "search": {
+      "n_witnessed_sets": 0,
+      "examples": []
+     }
+    }
+   }
+  }
+ },
+ "grid": {
+  "1000": {
+   "n": 1000,
+   "eta_v1": 0.133405460360967,
+   "eta_v2_median": 0.12116168349421708,
+   "by_eps": {
+    "0.05": {
+     "kl": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.1": {
+     "kl": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.15": {
+     "kl": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.2": {
+     "kl": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    }
+   }
+  },
+  "2000": {
+   "n": 2000,
+   "eta_v1": 0.09454341028715263,
+   "eta_v2_median": 0.08478790315420262,
+   "by_eps": {
+    "0.05": {
+     "kl": {
+      "u": 0.9995567375886525,
+      "certified": 1,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.1": {
+     "kl": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.15": {
+     "kl": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.2": {
+     "kl": {
+      "u": 0.46675531914893614,
+      "certified": 0,
+      "pass": 1203,
+      "possible": 1053,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    }
+   }
+  },
+  "4000": {
+   "n": 4000,
+   "eta_v1": 0.06692727470832534,
+   "eta_v2_median": 0.05585945985152266,
+   "by_eps": {
+    "0.05": {
+     "kl": {
+      "u": 0.9955673758865248,
+      "certified": 10,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": true,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.1": {
+     "kl": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.15": {
+     "kl": {
+      "u": 0.5190602836879432,
+      "certified": 0,
+      "pass": 1085,
+      "possible": 1171,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.2": {
+     "kl": {
+      "u": 0.10062056737588652,
+      "certified": 0,
+      "pass": 2029,
+      "possible": 227,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "pos.q1.T1",
+       "pos.q1.prob_meas1_prep0"
+      ],
+      "size": 3,
+      "gamma": 2.2857142857142856,
+      "kappa": 0.031914893617021274,
+      "witnessed": {
+       "exec.segment": false,
+       "pos.q1.T1": false,
+       "pos.q1.prob_meas1_prep0": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 0.3887411347517731,
+      "certified": 0,
+      "pass": 1379,
+      "possible": 877,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    }
+   }
+  },
+  "8192": {
+   "n": 8192,
+   "eta_v1": 0.04679370671384082,
+   "eta_v2_median": 0.037962833093571194,
+   "by_eps": {
+    "0.05": {
+     "kl": {
+      "u": 0.9375,
+      "certified": 141,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": true,
+       "exec.orientation": true,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 0.9942375886524822,
+      "certified": 13,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": true,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.1": {
+     "kl": {
+      "u": 0.8710106382978723,
+      "certified": 1,
+      "pass": 290,
+      "possible": 1966,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.dd",
+       "calib.epoch",
+       "pos.q0.prob_meas1_prep0",
+       "pos.q2.prob_meas0_prep1"
+      ],
+      "size": 5,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.dd": false,
+       "calib.epoch": false,
+       "pos.q0.prob_meas1_prep0": false,
+       "pos.q2.prob_meas0_prep1": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 1.0,
+      "certified": 0,
+      "pass": 0,
+      "possible": 2256,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.15": {
+     "kl": {
+      "u": 0.22606382978723405,
+      "certified": 0,
+      "pass": 1746,
+      "possible": 510,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "pos.q2.readout_error"
+      ],
+      "size": 2,
+      "gamma": 3.4285714285714284,
+      "kappa": 0.0673758865248227,
+      "witnessed": {
+       "exec.segment": false,
+       "pos.q2.readout_error": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 0.4627659574468085,
+      "certified": 0,
+      "pass": 1212,
+      "possible": 1044,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "exec.segment",
+       "exec.orientation",
+       "exec.dd",
+       "calib.epoch"
+      ],
+      "size": 4,
+      "gamma": 1.0,
+      "kappa": 0.0,
+      "witnessed": {
+       "exec.segment": false,
+       "exec.orientation": false,
+       "exec.dd": false,
+       "calib.epoch": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    },
+    "0.2": {
+     "kl": {
+      "u": 0.011968085106382979,
+      "certified": 0,
+      "pass": 2229,
+      "possible": 27,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "pos.q3.prob_meas1_prep0"
+      ],
+      "size": 1,
+      "gamma": 12.0,
+      "kappa": 0.2801418439716312,
+      "witnessed": {
+       "pos.q3.prob_meas1_prep0": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     },
+     "v1": {
+      "u": 0.1201241134751773,
+      "certified": 0,
+      "pass": 1985,
+      "possible": 271,
+      "within_task_pairs": 2256,
+      "irreducible": 0,
+      "exists": true,
+      "S": [
+       "calib.epoch",
+       "pos.q0.T1",
+       "pos.q0.sx.gate_error"
+      ],
+      "size": 3,
+      "gamma": 2.1818181818181817,
+      "kappa": 0.028368794326241134,
+      "witnessed": {
+       "calib.epoch": false,
+       "pos.q0.T1": false,
+       "pos.q0.sx.gate_error": false
+      },
+      "all_witnessed": false,
+      "irreducible_certified": 0,
+      "irreducible_share_of_violating": 0.0,
+      "search": {
+       "n_witnessed_sets": 0,
+       "examples": []
+      }
+     }
+    }
+   }
+  }
+ },
+ "verdict": {
+  "K3a_fires": false,
+  "kl": {
+   "K3b_pass_eps": [
+    0.15,
+    0.2
+   ],
+   "K3b_fires": false,
+   "K3c_pass_eps": [],
+   "K3c_fires": true,
+   "K6a_fires": false,
+   "K6b_fires": false
+  },
+  "v1": {
+   "K3b_pass_eps": [
+    0.15,
+    0.2
+   ],
+   "K3b_fires": false,
+   "K3c_pass_eps": [],
+   "K3c_fires": true,
+   "K6a_fires": false,
+   "K6b_fires": true
+  }
+ }
+}

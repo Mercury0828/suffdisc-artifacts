@@ -1,0 +1,1016 @@
+{
+ "field_report": {
+  "declared_identifiers": [
+   "job.id",
+   "job.session_id",
+   "job.creation_time",
+   "job.exec_span_start",
+   "job.exec_span_stop"
+  ],
+  "data_identifiers": [],
+  "constant": [
+   "exec.shots",
+   "exec.opt_level",
+   "exec.seed_transpiler",
+   "circ.n_x",
+   "calib.age_bin",
+   "pos.q0.readout_length",
+   "pos.q1.readout_length",
+   "pos.q2.readout_length",
+   "pos.q3.readout_length",
+   "pos.e01.cz.gate_length",
+   "pos.e12.cz.gate_length",
+   "pos.e23.cz.gate_length",
+   "abs.q17.readout_error",
+   "abs.q26.T2",
+   "abs.q56.sx.gate_error",
+   "abs.q98.sx.gate_error",
+   "abs.q111.T1",
+   "abs.q111.sx.gate_error",
+   "abs.q142.sx.gate_error",
+   "abs.cz17_27.gate_error",
+   "abs.cz25_26.gate_error",
+   "abs.cz43_56.gate_error",
+   "abs.cz56_63.gate_error",
+   "abs.cz62_63.gate_error",
+   "abs.cz91_98.gate_error",
+   "abs.cz98_111.gate_error",
+   "abs.cz142_143.gate_error",
+   "job.backend",
+   "job.sdk_version",
+   "job.runtime_version"
+  ],
+  "mostly_missing": [],
+  "meaningful": [
+   "exec.segment",
+   "exec.orientation",
+   "exec.dd",
+   "circ.depth",
+   "circ.n_cz",
+   "circ.n_sx",
+   "circ.n_rz",
+   "calib.epoch",
+   "pos.q0.T1",
+   "pos.q0.T2",
+   "pos.q0.readout_error",
+   "pos.q0.prob_meas0_prep1",
+   "pos.q0.prob_meas1_prep0",
+   "pos.q0.sx.gate_error",
+   "pos.q0.x.gate_error",
+   "pos.q1.T1",
+   "pos.q1.T2",
+   "pos.q1.readout_error",
+   "pos.q1.prob_meas0_prep1",
+   "pos.q1.prob_meas1_prep0",
+   "pos.q1.sx.gate_error",
+   "pos.q1.x.gate_error",
+   "pos.q2.T1",
+   "pos.q2.T2",
+   "pos.q2.readout_error",
+   "pos.q2.prob_meas0_prep1",
+   "pos.q2.prob_meas1_prep0",
+   "pos.q2.sx.gate_error",
+   "pos.q2.x.gate_error",
+   "pos.q3.T1",
+   "pos.q3.T2",
+   "pos.q3.readout_error",
+   "pos.q3.prob_meas0_prep1",
+   "pos.q3.prob_meas1_prep0",
+   "pos.q3.sx.gate_error",
+   "pos.q3.x.gate_error",
+   "pos.e01.cz.gate_error",
+   "pos.e12.cz.gate_error",
+   "pos.e23.cz.gate_error",
+   "abs.q17.T1",
+   "abs.q17.T2",
+   "abs.q17.sx.gate_error",
+   "abs.q25.T1",
+   "abs.q25.T2",
+   "abs.q25.readout_error",
+   "abs.q25.sx.gate_error",
+   "abs.q26.T1",
+   "abs.q26.readout_error",
+   "abs.q26.sx.gate_error",
+   "abs.q27.T1",
+   "abs.q27.T2",
+   "abs.q27.readout_error",
+   "abs.q27.sx.gate_error",
+   "abs.q43.T1",
+   "abs.q43.T2",
+   "abs.q43.readout_error",
+   "abs.q43.sx.gate_error",
+   "abs.q56.T1",
+   "abs.q56.T2",
+   "abs.q56.readout_error",
+   "abs.q62.T1",
+   "abs.q62.T2",
+   "abs.q62.readout_error",
+   "abs.q62.sx.gate_error",
+   "abs.q63.T1",
+   "abs.q63.T2",
+   "abs.q63.readout_error",
+   "abs.q63.sx.gate_error",
+   "abs.q90.T1",
+   "abs.q90.T2",
+   "abs.q90.readout_error",
+   "abs.q90.sx.gate_error",
+   "abs.q91.T1",
+   "abs.q91.T2",
+   "abs.q91.readout_error",
+   "abs.q91.sx.gate_error",
+   "abs.q98.T1",
+   "abs.q98.T2",
+   "abs.q98.readout_error",
+   "abs.q111.T2",
+   "abs.q111.readout_error",
+   "abs.q142.T1",
+   "abs.q142.T2",
+   "abs.q142.readout_error",
+   "abs.q143.T1",
+   "abs.q143.T2",
+   "abs.q143.readout_error",
+   "abs.q143.sx.gate_error",
+   "abs.q144.T1",
+   "abs.q144.T2",
+   "abs.q144.readout_error",
+   "abs.q144.sx.gate_error",
+   "abs.q145.T1",
+   "abs.q145.T2",
+   "abs.q145.readout_error",
+   "abs.q145.sx.gate_error",
+   "abs.cz26_27.gate_error",
+   "abs.cz90_91.gate_error",
+   "abs.cz143_144.gate_error",
+   "abs.cz144_145.gate_error"
+  ]
+ },
+ "records": [
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 0,
+   "name": "ghz4|L0|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 1,
+   "name": "ghz4|L0|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 2,
+   "name": "ghz4|L1|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 3,
+   "name": "ghz4|L1|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 4,
+   "name": "ghz4|L2|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 5,
+   "name": "ghz4|L2|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 6,
+   "name": "ghz4|L3|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 7,
+   "name": "ghz4|L3|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 8,
+   "name": "qaoa1_path|L0|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 9,
+   "name": "qaoa1_path|L0|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 10,
+   "name": "qaoa1_path|L1|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 11,
+   "name": "qaoa1_path|L1|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 12,
+   "name": "qaoa1_path|L2|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 13,
+   "name": "qaoa1_path|L2|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 14,
+   "name": "qaoa1_path|L3|forward",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=False",
+   "job_id": "dbocasgqtr0c73c4s3ng",
+   "pub": 15,
+   "name": "qaoa1_path|L3|reversed",
+   "dd": false,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 0,
+   "name": "ghz4|L0|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 1,
+   "name": "ghz4|L0|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 2,
+   "name": "ghz4|L1|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 3,
+   "name": "ghz4|L1|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 4,
+   "name": "ghz4|L2|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 5,
+   "name": "ghz4|L2|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 6,
+   "name": "ghz4|L3|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 7,
+   "name": "ghz4|L3|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 8,
+   "name": "qaoa1_path|L0|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 9,
+   "name": "qaoa1_path|L0|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 10,
+   "name": "qaoa1_path|L1|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 11,
+   "name": "qaoa1_path|L1|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 12,
+   "name": "qaoa1_path|L2|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 13,
+   "name": "qaoa1_path|L2|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 14,
+   "name": "qaoa1_path|L3|forward",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E1r|dd=True",
+   "job_id": "dbocass4148s7392943g",
+   "pub": 15,
+   "name": "qaoa1_path|L3|reversed",
+   "dd": true,
+   "epoch_label": "E1r",
+   "calib_epoch": "2026-11-08 18:04:09+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 0,
+   "name": "ghz4|L0|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 1,
+   "name": "ghz4|L0|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 2,
+   "name": "ghz4|L1|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 3,
+   "name": "ghz4|L1|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 4,
+   "name": "ghz4|L2|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 5,
+   "name": "ghz4|L2|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 6,
+   "name": "ghz4|L3|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 7,
+   "name": "ghz4|L3|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 8,
+   "name": "qaoa1_path|L0|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 9,
+   "name": "qaoa1_path|L0|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 10,
+   "name": "qaoa1_path|L1|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 11,
+   "name": "qaoa1_path|L1|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 12,
+   "name": "qaoa1_path|L2|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 13,
+   "name": "qaoa1_path|L2|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 14,
+   "name": "qaoa1_path|L3|forward",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=False",
+   "job_id": "dbohjhgou4as73cs4g8g",
+   "pub": 15,
+   "name": "qaoa1_path|L3|reversed",
+   "dd": false,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 0,
+   "name": "ghz4|L0|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 1,
+   "name": "ghz4|L0|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 2,
+   "name": "ghz4|L1|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 3,
+   "name": "ghz4|L1|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 4,
+   "name": "ghz4|L2|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 5,
+   "name": "ghz4|L2|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 6,
+   "name": "ghz4|L3|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 7,
+   "name": "ghz4|L3|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 8,
+   "name": "qaoa1_path|L0|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 9,
+   "name": "qaoa1_path|L0|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 10,
+   "name": "qaoa1_path|L1|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 11,
+   "name": "qaoa1_path|L1|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 12,
+   "name": "qaoa1_path|L2|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 13,
+   "name": "qaoa1_path|L2|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 14,
+   "name": "qaoa1_path|L3|forward",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E2|dd=True",
+   "job_id": "dbohjhtt7fqc7387sb40",
+   "pub": 15,
+   "name": "qaoa1_path|L3|reversed",
+   "dd": true,
+   "epoch_label": "E2",
+   "calib_epoch": "2026-11-09 00:08:24+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 0,
+   "name": "ghz4|L0|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 1,
+   "name": "ghz4|L0|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 2,
+   "name": "ghz4|L1|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 3,
+   "name": "ghz4|L1|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 4,
+   "name": "ghz4|L2|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 5,
+   "name": "ghz4|L2|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 6,
+   "name": "ghz4|L3|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 7,
+   "name": "ghz4|L3|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 8,
+   "name": "qaoa1_path|L0|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 9,
+   "name": "qaoa1_path|L0|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 10,
+   "name": "qaoa1_path|L1|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 11,
+   "name": "qaoa1_path|L1|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 12,
+   "name": "qaoa1_path|L2|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 13,
+   "name": "qaoa1_path|L2|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 14,
+   "name": "qaoa1_path|L3|forward",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=False",
+   "job_id": "dbp6090qtr0c738dqgv0",
+   "pub": 15,
+   "name": "qaoa1_path|L3|reversed",
+   "dd": false,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 0,
+   "name": "ghz4|L0|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 1,
+   "name": "ghz4|L0|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 2,
+   "name": "ghz4|L1|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 3,
+   "name": "ghz4|L1|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 4,
+   "name": "ghz4|L2|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 5,
+   "name": "ghz4|L2|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 6,
+   "name": "ghz4|L3|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 7,
+   "name": "ghz4|L3|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 8,
+   "name": "qaoa1_path|L0|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 9,
+   "name": "qaoa1_path|L0|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 10,
+   "name": "qaoa1_path|L1|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 11,
+   "name": "qaoa1_path|L1|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 12,
+   "name": "qaoa1_path|L2|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 13,
+   "name": "qaoa1_path|L2|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 14,
+   "name": "qaoa1_path|L3|forward",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  },
+  {
+   "manifest_key": "E3|dd=True",
+   "job_id": "dbp6090qtr0c738dqh00",
+   "pub": 15,
+   "name": "qaoa1_path|L3|reversed",
+   "dd": true,
+   "epoch_label": "E3",
+   "calib_epoch": "2026-11-10 00:03:46+00:00"
+  }
+ ],
+ "fields_yaml_sha256": "7ff3a8717e6b373893d111dcb1dcc8cfa4f156e2eac4f19168361dc3164f0e04",
+ "bins_sha256": "dfd474fbd5b29a6264906f2b241ef4f1d9e1551c45210859df016e59797f03e2",
+ "relation_fields_sha256": "c37dab1172b8c1708d9ac72045b4b75a694bafcaa0e4f12ddebc6a07e4fb21d0"
+}

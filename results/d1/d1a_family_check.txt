@@ -1,0 +1,2 @@
+family of 28 QAOA tasks: min cost 4.0 sets [['L', 'G', 'M', 'A']] risks [0.04442]
+max risk of LGMA: 0.04442 at QAOA-1 seed 51

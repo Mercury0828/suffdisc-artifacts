@@ -1,0 +1,4 @@
+instances 1000 finite-shot 500 families Counter({'near': 511, 'far': 489})
+method-output checks 6000 failures 0 | C6 vs B0 disagreements 0 | cases with no certified-sufficient set 246
+mutations caught (caught/tested): {'M1_drop_field': (918, 918), 'M2_misbin': (56, 918), 'M3_radius_zero': (127, 418), 'M4_cross_task': (808, 918)}
+first failures []

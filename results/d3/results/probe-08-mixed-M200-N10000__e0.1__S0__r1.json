@@ -1,0 +1,58 @@
+{
+ "method": "SUFFDISC-0",
+ "version": "v3-incremental",
+ "status": "complete",
+ "eps": 0.1,
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "key_width": 6,
+  "block": 1024,
+  "seed": 0
+ },
+ "cover_plus": 21912,
+ "cover_minus": 21912,
+ "resumed": 0,
+ "n_dist": 59452,
+ "t_sample": 1.1865780999942217,
+ "t_validate": 0.09411950001958758,
+ "t_hitting": 0.027910900011193007,
+ "iterations": 2,
+ "n_pivot_certified_groups": 2507,
+ "n_full_groups": 230,
+ "irreducible_seen": 0,
+ "n_boundary": 0,
+ "t_labels": 1.0299991117790341e-05,
+ "S": [
+  31,
+  117,
+  144,
+  150
+ ],
+ "certified_sufficient_exists": true,
+ "labels": {
+  "31": "certified_needed",
+  "117": "certified_needed",
+  "144": "certified_needed",
+  "150": "certified_needed"
+ },
+ "t_total": 1.3223256999917794,
+ "job": {
+  "instance": "data/sim/probe-08-mixed-M200-N10000",
+  "eps": 0.1,
+  "rep": 1,
+  "time_limit": 14400,
+  "batch": "d3",
+  "id": "probe-08-mixed-M200-N10000__e0.1__S0__r1",
+  "method": "SUFFDISC-0",
+  "knobs": {
+   "rounds": 2,
+   "window": 2
+  }
+ },
+ "relation_sha256": "79de9cf59f7d77d9c633e978b29e07380db3b5334a49e512fc80c150d6b8ab3c",
+ "t_load": 0.22638509998796508,
+ "t_cpu": 1.0625,
+ "peak_mem_bytes": 207503360,
+ "core": 0
+}

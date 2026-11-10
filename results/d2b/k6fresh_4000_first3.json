@@ -1,0 +1,342 @@
+{
+ "n": 4000,
+ "N": 96,
+ "M": 111,
+ "pairs": 2256,
+ "t": 0.008867342524075924,
+ "true_laws_inside": 96,
+ "t_upper_s": 84.69535019999603,
+ "validity_upper_bad": 0,
+ "by_eps": {
+  "0.05": {
+   "v1": {
+    "u": 0.999113475177305,
+    "certified": 2,
+    "pass": 0,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "exec.dd",
+     "calib.epoch"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.segment": false,
+     "exec.orientation": true,
+     "exec.dd": false,
+     "calib.epoch": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "v2": {
+    "u": 0.9986702127659575,
+    "certified": 3,
+    "pass": 0,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "exec.dd",
+     "calib.epoch"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.segment": false,
+     "exec.orientation": true,
+     "exec.dd": false,
+     "calib.epoch": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "kl": {
+    "u": 0.9844858156028369,
+    "certified": 35,
+    "pass": 0,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "exec.dd",
+     "calib.epoch"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.segment": true,
+     "exec.orientation": true,
+     "exec.dd": false,
+     "calib.epoch": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   }
+  },
+  "0.1": {
+   "v1": {
+    "u": 1.0,
+    "certified": 0,
+    "pass": 0,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "exec.dd",
+     "calib.epoch"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.segment": false,
+     "exec.orientation": false,
+     "exec.dd": false,
+     "calib.epoch": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "v2": {
+    "u": 1.0,
+    "certified": 0,
+    "pass": 0,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "exec.dd",
+     "calib.epoch"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.segment": false,
+     "exec.orientation": false,
+     "exec.dd": false,
+     "calib.epoch": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "kl": {
+    "u": 1.0,
+    "certified": 0,
+    "pass": 0,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "exec.dd",
+     "calib.epoch"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.segment": false,
+     "exec.orientation": false,
+     "exec.dd": false,
+     "calib.epoch": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   }
+  },
+  "0.15": {
+   "v1": {
+    "u": 0.999113475177305,
+    "certified": 0,
+    "pass": 2,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "exec.dd",
+     "calib.epoch"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.segment": false,
+     "exec.orientation": false,
+     "exec.dd": false,
+     "calib.epoch": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "v2": {
+    "u": 0.5341312056737588,
+    "certified": 0,
+    "pass": 1051,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.dd",
+     "pos.q1.T1",
+     "pos.q1.readout_error",
+     "pos.q2.prob_meas1_prep0"
+    ],
+    "size": 4,
+    "gamma": 1.0,
+    "kappa": 0.0,
+    "witnessed": {
+     "exec.dd": false,
+     "pos.q1.T1": false,
+     "pos.q1.readout_error": false,
+     "pos.q2.prob_meas1_prep0": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "kl": {
+    "u": 0.3191489361702128,
+    "certified": 0,
+    "pass": 1536,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "exec.orientation",
+     "pos.q0.T2"
+    ],
+    "size": 3,
+    "gamma": 4.0,
+    "kappa": 0.08156028368794327,
+    "witnessed": {
+     "exec.segment": false,
+     "exec.orientation": false,
+     "pos.q0.T2": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   }
+  },
+  "0.2": {
+   "v1": {
+    "u": 0.2894503546099291,
+    "certified": 0,
+    "pass": 1603,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "pos.q3.T1"
+    ],
+    "size": 2,
+    "gamma": 3.6923076923076925,
+    "kappa": 0.07801418439716312,
+    "witnessed": {
+     "exec.segment": false,
+     "pos.q3.T1": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "v2": {
+    "u": 0.28368794326241137,
+    "certified": 0,
+    "pass": 1616,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "pos.q3.T1"
+    ],
+    "size": 2,
+    "gamma": 3.6923076923076925,
+    "kappa": 0.07801418439716312,
+    "witnessed": {
+     "exec.segment": false,
+     "pos.q3.T1": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   },
+   "kl": {
+    "u": 0.10416666666666667,
+    "certified": 0,
+    "pass": 2021,
+    "validity_lower_bad": 0,
+    "irreducible": 0,
+    "exists": true,
+    "S": [
+     "exec.segment",
+     "pos.q2.prob_meas0_prep1"
+    ],
+    "size": 2,
+    "gamma": 4.363636363636363,
+    "kappa": 0.09574468085106383,
+    "witnessed": {
+     "exec.segment": false,
+     "pos.q2.prob_meas0_prep1": false
+    },
+    "all_witnessed": false,
+    "search": {
+     "n_witnessed_sets": 0,
+     "examples": []
+    }
+   }
+  }
+ }
+}

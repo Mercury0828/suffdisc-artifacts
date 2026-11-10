@@ -1,0 +1,68 @@
+{
+ "method": "SUFFDISC-0",
+ "version": "v3-incremental",
+ "status": "complete",
+ "eps": 0.2,
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "key_width": 6,
+  "block": 1024,
+  "seed": 0
+ },
+ "cover_plus": 20762,
+ "cover_minus": 20762,
+ "resumed": 0,
+ "n_dist": 44464,
+ "t_sample": 1.4698883000237402,
+ "t_validate": 0.2548329000128433,
+ "t_hitting": 0.04984680001507513,
+ "iterations": 3,
+ "n_pivot_certified_groups": 1220,
+ "n_full_groups": 612,
+ "irreducible_seen": 0,
+ "n_boundary": 0,
+ "t_labels": 2.8999929782003164e-06,
+ "S": [
+  6,
+  24,
+  51,
+  77,
+  92,
+  104,
+  111,
+  117,
+  126
+ ],
+ "certified_sufficient_exists": true,
+ "labels": {
+  "6": "certified_needed",
+  "24": "certified_needed",
+  "51": "certified_needed",
+  "77": "certified_needed",
+  "92": "certified_needed",
+  "104": "certified_needed",
+  "111": "certified_needed",
+  "117": "certified_needed",
+  "126": "certified_needed"
+ },
+ "t_total": 1.781454100011615,
+ "job": {
+  "instance": "data/sim/probe-08-mixed-M200-N10000",
+  "eps": 0.2,
+  "rep": 2,
+  "time_limit": 14400,
+  "batch": "d3",
+  "id": "probe-08-mixed-M200-N10000__e0.2__S0__r2",
+  "method": "SUFFDISC-0",
+  "knobs": {
+   "rounds": 2,
+   "window": 2
+  }
+ },
+ "relation_sha256": "79de9cf59f7d77d9c633e978b29e07380db3b5334a49e512fc80c150d6b8ab3c",
+ "t_load": 0.1759740999841597,
+ "t_cpu": 0.953125,
+ "peak_mem_bytes": 208113664,
+ "core": 0
+}

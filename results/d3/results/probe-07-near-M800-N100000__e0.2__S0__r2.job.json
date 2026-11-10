@@ -1,0 +1,13 @@
+{
+ "instance": "data/sim/probe-07-near-M800-N100000",
+ "eps": 0.2,
+ "rep": 2,
+ "time_limit": 14400,
+ "batch": "d3",
+ "id": "probe-07-near-M800-N100000__e0.2__S0__r2",
+ "method": "SUFFDISC-0",
+ "knobs": {
+  "rounds": 2,
+  "window": 2
+ }
+}

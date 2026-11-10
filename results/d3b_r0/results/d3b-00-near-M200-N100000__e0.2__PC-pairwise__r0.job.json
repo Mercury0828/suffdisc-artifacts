@@ -1,0 +1,15 @@
+{
+ "instance": "data/sim/d3b-00-near-M200-N100000",
+ "eps": 0.2,
+ "rep": 0,
+ "time_limit": 3600,
+ "batch": "d3b_r0",
+ "id": "d3b-00-near-M200-N100000__e0.2__PC-pairwise__r0",
+ "method": "PC-pairwise",
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "pivot": false,
+  "net": false
+ }
+}

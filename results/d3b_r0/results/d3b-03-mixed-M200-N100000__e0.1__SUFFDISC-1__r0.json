@@ -1,0 +1,76 @@
+{
+ "method": "SUFFDISC-1",
+ "version": "v1-net",
+ "validator": {
+  "pivot": true,
+  "net": true,
+  "net_h": 0.125,
+  "net_min": 256,
+  "net_kmax_frac": 0.25
+ },
+ "rule": "v1",
+ "kl_refined_pairs": 0,
+ "kl_upper_nm": 0,
+ "n_canonical": 0,
+ "status": "complete",
+ "eps": 0.1,
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "key_width": 6,
+  "block": 1024,
+  "seed": 0
+ },
+ "cover_plus": 209705,
+ "cover_minus": 209705,
+ "resumed": 0,
+ "n_dist": 499592,
+ "t_sample": 11.137729799986118,
+ "t_validate": 0.22668849999899976,
+ "t_hitting": 0.15990109997801483,
+ "iterations": 1,
+ "n_pivot_certified_groups": 384,
+ "n_full_groups": 0,
+ "irreducible_seen": 0,
+ "n_boundary": 0,
+ "n_net_groups": 0,
+ "n_net_abandoned": 0,
+ "n_net_pairs_certified": 0,
+ "t_labels": 6.200018106028438e-06,
+ "S": [
+  29,
+  97,
+  109,
+  166
+ ],
+ "certified_sufficient_exists": true,
+ "labels": {
+  "29": "certified_needed",
+  "97": "certified_needed",
+  "109": "certified_needed",
+  "166": "certified_needed"
+ },
+ "t_total": 33.02817099998356,
+ "job": {
+  "instance": "data/sim/d3b-03-mixed-M200-N100000",
+  "eps": 0.1,
+  "rep": 0,
+  "time_limit": 3600,
+  "batch": "d3b_r0",
+  "id": "d3b-03-mixed-M200-N100000__e0.1__SUFFDISC-1__r0",
+  "method": "SUFFDISC-1",
+  "knobs": {
+   "rounds": 2,
+   "window": 2,
+   "pivot": true,
+   "net": true,
+   "net_h": 0.125,
+   "net_min": 256
+  }
+ },
+ "relation_sha256": "a6efc0148263c340a3ac901b5bf20f60d940ccdaac685df9a59095683321ee66",
+ "t_load": 4.424927399988519,
+ "t_cpu": 3.796875,
+ "peak_mem_bytes": 1294868480,
+ "core": 30
+}

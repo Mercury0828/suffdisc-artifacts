@@ -1,0 +1,1028 @@
+{
+ "abs.cz142_143.gate_error": {
+  "edges": [
+   0.002640690385690092,
+   0.003554937290058985,
+   0.004472183304125132
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz143_144.gate_error": {
+  "edges": [
+   0.0012893799587711807,
+   0.0014519642947193878,
+   0.0017285735074527575
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz144_145.gate_error": {
+  "edges": [
+   0.0012727434345645994,
+   0.0015144021149178233,
+   0.0019102893045270242
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz17_27.gate_error": {
+  "edges": [
+   0.0016007047226811177,
+   0.0018749549110780306,
+   0.002161239141631549
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz25_26.gate_error": {
+  "edges": [
+   0.001231961853861846,
+   0.0016754421684064547,
+   0.002229954021203101
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz26_27.gate_error": {
+  "edges": [
+   0.00240449501743617,
+   0.0026814997857873835,
+   0.003136729031258806
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz43_56.gate_error": {
+  "edges": [
+   0.0010596381720640036,
+   0.001165691845688377,
+   0.0012773502423481797
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz56_63.gate_error": {
+  "edges": [
+   0.0011308719440032422,
+   0.0012532361626498012,
+   0.0013842248226096365
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz62_63.gate_error": {
+  "edges": [
+   0.0015554602283742724,
+   0.0024581424753939984,
+   0.0032293115349994184
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz90_91.gate_error": {
+  "edges": [
+   0.0017309540669055712,
+   0.00195550046516596,
+   0.0024700122810760172
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz91_98.gate_error": {
+  "edges": [
+   0.0012388085939841198,
+   0.0015360515547241937,
+   0.001860122533067804
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.cz98_111.gate_error": {
+  "edges": [
+   0.0011831445956984876,
+   0.0012629948471533647,
+   0.0014226227095496813
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q111.T1": {
+  "edges": [
+   174.98725033527387,
+   274.3210713411856,
+   348.33223617206016
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q111.T2": {
+  "edges": [
+   22.108252915764545,
+   26.625183892039452,
+   31.340018879448213
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q111.readout_error": {
+  "edges": [
+   0.00439453125,
+   0.0050048828125,
+   0.0067138671875
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q111.sx.gate_error": {
+  "edges": [
+   0.00018599062445162138,
+   0.00023295702751045626,
+   0.0002656783709603094
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q142.T1": {
+  "edges": [
+   193.55144539702727,
+   224.8891261180164,
+   257.99108853749107
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q142.T2": {
+  "edges": [
+   24.11165827641982,
+   38.99457352027881,
+   49.798064733638626
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q142.readout_error": {
+  "edges": [
+   0.014404296875,
+   0.0162353515625,
+   0.017333984375
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q142.sx.gate_error": {
+  "edges": [
+   0.00018686268248129884,
+   0.00023861341102865996,
+   0.0002695385661885752
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q143.T1": {
+  "edges": [
+   271.13823777904884,
+   317.7235475443064,
+   353.55803208602566
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q143.T2": {
+  "edges": [
+   239.01025809357034,
+   273.73803303398,
+   309.7991936678918
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q143.readout_error": {
+  "edges": [
+   0.003173828125,
+   0.004150390625,
+   0.004638671875
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q143.sx.gate_error": {
+  "edges": [
+   0.00025661062405043367,
+   0.00029234647413393944,
+   0.0003298640758809627
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q144.T1": {
+  "edges": [
+   194.86165563514098,
+   240.578953408886,
+   299.720162237599
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q144.T2": {
+  "edges": [
+   256.3069307817277,
+   324.136875053202,
+   376.6300950101207
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q144.readout_error": {
+  "edges": [
+   0.0087890625,
+   0.010498046875,
+   0.0115966796875
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q144.sx.gate_error": {
+  "edges": [
+   0.00014148359920217204,
+   0.00016571748652999092,
+   0.00020343629278273256
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q145.T1": {
+  "edges": [
+   228.35343999446712,
+   290.14158426339156,
+   341.6628919418859
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q145.T2": {
+  "edges": [
+   126.60608135320784,
+   168.23458989146508,
+   210.63101074355558
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q145.readout_error": {
+  "edges": [
+   0.003173828125,
+   0.0037841796875,
+   0.0057373046875
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q145.sx.gate_error": {
+  "edges": [
+   0.00013755654208548554,
+   0.0001750317149090828,
+   0.000238796236436626
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q17.T1": {
+  "edges": [
+   219.7852345810577,
+   245.364945681433,
+   284.6047491869315
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q17.T2": {
+  "edges": [
+   83.75949780100218,
+   116.24786324729327,
+   207.51877864252538
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q17.readout_error": {
+  "edges": [
+   0.0037841796875,
+   0.0045166015625,
+   0.0062255859375
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q17.sx.gate_error": {
+  "edges": [
+   0.00017401239283858287,
+   0.00019250698115573216,
+   0.00022429971654706714
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q25.T1": {
+  "edges": [
+   231.66956021525667,
+   294.5306935890006,
+   343.4518868709068
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q25.T2": {
+  "edges": [
+   53.7666951823927,
+   56.12705064194713,
+   62.19284897112311
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q25.readout_error": {
+  "edges": [
+   0.0042724609375,
+   0.00537109375,
+   0.007080078125
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q25.sx.gate_error": {
+  "edges": [
+   0.00019874842236020286,
+   0.00022725123630032594,
+   0.00026792916287532713
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q26.T1": {
+  "edges": [
+   166.7391370091243,
+   192.54849346255844,
+   228.72400429445682
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q26.T2": {
+  "edges": [
+   155.70416997772432,
+   181.10500273382593,
+   194.09624832337443
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q26.readout_error": {
+  "edges": [
+   0.004150390625,
+   0.0048828125,
+   0.0069580078125
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q26.sx.gate_error": {
+  "edges": [
+   0.00025990554899582786,
+   0.0002833420861634638,
+   0.0003401963244796492
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q27.T1": {
+  "edges": [
+   242.67939153683923,
+   269.5098822614161,
+   307.23697275095617
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q27.T2": {
+  "edges": [
+   260.6683826650272,
+   293.2403079939255,
+   323.0976705844209
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q27.readout_error": {
+  "edges": [
+   0.0081787109375,
+   0.009521484375,
+   0.010986328125
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q27.sx.gate_error": {
+  "edges": [
+   0.00014223848485671588,
+   0.00017541416703688233,
+   0.0002340696634297581
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q43.T1": {
+  "edges": [
+   244.53585570218277,
+   278.2362876015468,
+   310.21471510995184
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q43.T2": {
+  "edges": [
+   281.96229083591635,
+   343.6704709402214,
+   361.6322369875831
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q43.readout_error": {
+  "edges": [
+   0.004150390625,
+   0.0048828125,
+   0.0069580078125
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q43.sx.gate_error": {
+  "edges": [
+   0.00020215717806123905,
+   0.0002157812092269826,
+   0.00024713011588555015
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q56.T1": {
+  "edges": [
+   205.3943557257029,
+   251.7198826750167,
+   289.49636042359015
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q56.T2": {
+  "edges": [
+   35.12463861770568,
+   36.70139569492395,
+   40.721994305143966
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q56.readout_error": {
+  "edges": [
+   0.0428466796875,
+   0.0455322265625,
+   0.0482177734375
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q56.sx.gate_error": {
+  "edges": [
+   0.00019317468657318,
+   0.00021341088615322012,
+   0.00023413583721098625
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q62.T1": {
+  "edges": [
+   160.06649269407043,
+   197.71521596300232,
+   228.7708103530891
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q62.T2": {
+  "edges": [
+   99.10794314610192,
+   113.6633373046686,
+   129.8913677685158
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q62.readout_error": {
+  "edges": [
+   0.017333984375,
+   0.0184326171875,
+   0.02001953125
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q62.sx.gate_error": {
+  "edges": [
+   0.00022642399253534808,
+   0.0002492356448637055,
+   0.00028432013094999836
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q63.T1": {
+  "edges": [
+   205.2372723184052,
+   241.04639903839868,
+   263.17217650144505
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q63.T2": {
+  "edges": [
+   23.955298720632886,
+   26.324026055131135,
+   28.82239389281425
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q63.readout_error": {
+  "edges": [
+   0.0052490234375,
+   0.005859375,
+   0.0064697265625
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q63.sx.gate_error": {
+  "edges": [
+   0.0002716069525593848,
+   0.00032169012293376453,
+   0.00037896686035919654
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q90.T1": {
+  "edges": [
+   216.78389006789203,
+   256.3608234757595,
+   293.9643563780456
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q90.T2": {
+  "edges": [
+   59.420818185663535,
+   98.55334876720055,
+   268.3178857052101
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q90.readout_error": {
+  "edges": [
+   0.00341796875,
+   0.0040283203125,
+   0.0048828125
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q90.sx.gate_error": {
+  "edges": [
+   0.00014826840546931897,
+   0.00018385232706863135,
+   0.00020757037393002935
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q91.T1": {
+  "edges": [
+   215.21466970574713,
+   281.89007271800057,
+   337.3677648396163
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q91.T2": {
+  "edges": [
+   157.86561554869488,
+   204.61080143787336,
+   225.59599917209536
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q91.readout_error": {
+  "edges": [
+   0.00341796875,
+   0.0040283203125,
+   0.0045166015625
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q91.sx.gate_error": {
+  "edges": [
+   0.0003378023017156019,
+   0.0003900402564393644,
+   0.00046558552350001403
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q98.T1": {
+  "edges": [
+   250.01023030328236,
+   282.6458512678071,
+   303.7056259610524
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q98.T2": {
+  "edges": [
+   168.9941927086825,
+   178.41544203994732,
+   189.1572475957718
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q98.readout_error": {
+  "edges": [
+   0.0040283203125,
+   0.0050048828125,
+   0.0057373046875
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "abs.q98.sx.gate_error": {
+  "edges": [
+   0.00028428119604909747,
+   0.00031864090372327094,
+   0.0003726252207607631
+  ],
+  "n_archive_values": 45,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.e01.cz.gate_error": {
+  "edges": [
+   0.00127999266145358,
+   0.0016882877210998293,
+   0.002582115411921132
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.e01.cz.gate_length": {
+  "edges": [
+   68.0,
+   68.0,
+   68.0
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.e12.cz.gate_error": {
+  "edges": [
+   0.0012528939821142698,
+   0.001590874563426145,
+   0.0023752327044751984
+  ],
+  "n_archive_values": 180,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.e12.cz.gate_length": {
+  "edges": [
+   68.0,
+   68.0,
+   68.0
+  ],
+  "n_archive_values": 180,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.e23.cz.gate_error": {
+  "edges": [
+   0.00127999266145358,
+   0.0016882877210998293,
+   0.002582115411921132
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.e23.cz.gate_length": {
+  "edges": [
+   68.0,
+   68.0,
+   68.0
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.T1": {
+  "edges": [
+   204.93453670446377,
+   251.74032168278384,
+   304.342572993239
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.T2": {
+  "edges": [
+   48.68318722741977,
+   87.94716533052588,
+   179.96653222109077
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.prob_meas0_prep1": {
+  "edges": [
+   0.00634765625,
+   0.008544921875,
+   0.01690673828125
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.prob_meas1_prep0": {
+  "edges": [
+   0.001220703125,
+   0.002685546875,
+   0.0087890625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.readout_error": {
+  "edges": [
+   0.004119873046875,
+   0.00555419921875,
+   0.013916015625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.readout_length": {
+  "edges": [
+   2652.0,
+   2652.0,
+   2652.0
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.sx.gate_error": {
+  "edges": [
+   0.00017922923985090903,
+   0.0002163089581855013,
+   0.0002561852017446834
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q0.x.gate_error": {
+  "edges": [
+   0.00017922923985090903,
+   0.0002163089581855013,
+   0.0002561852017446834
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.T1": {
+  "edges": [
+   211.9474456874601,
+   257.0775028671704,
+   305.3165957853419
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.T2": {
+  "edges": [
+   67.60185255962016,
+   186.8185297628507,
+   268.4265874359113
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.prob_meas0_prep1": {
+  "edges": [
+   0.007080078125,
+   0.009765625,
+   0.013427734375
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.prob_meas1_prep0": {
+  "edges": [
+   0.001220703125,
+   0.002685546875,
+   0.008056640625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.readout_error": {
+  "edges": [
+   0.0045166015625,
+   0.006103515625,
+   0.010406494140625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.readout_length": {
+  "edges": [
+   2652.0,
+   2652.0,
+   2652.0
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.sx.gate_error": {
+  "edges": [
+   0.00021037703112395965,
+   0.0002756887602391992,
+   0.0003428074600942739
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q1.x.gate_error": {
+  "edges": [
+   0.00021037703112395965,
+   0.0002756887602391992,
+   0.0003428074600942739
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.T1": {
+  "edges": [
+   211.9474456874601,
+   257.0775028671704,
+   305.3165957853419
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.T2": {
+  "edges": [
+   67.60185255962016,
+   186.8185297628507,
+   268.4265874359113
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.prob_meas0_prep1": {
+  "edges": [
+   0.007080078125,
+   0.009765625,
+   0.013427734375
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.prob_meas1_prep0": {
+  "edges": [
+   0.001220703125,
+   0.002685546875,
+   0.008056640625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.readout_error": {
+  "edges": [
+   0.0045166015625,
+   0.006103515625,
+   0.010406494140625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.readout_length": {
+  "edges": [
+   2652.0,
+   2652.0,
+   2652.0
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.sx.gate_error": {
+  "edges": [
+   0.00021037703112395965,
+   0.0002756887602391992,
+   0.0003428074600942739
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q2.x.gate_error": {
+  "edges": [
+   0.00021037703112395965,
+   0.0002756887602391992,
+   0.0003428074600942739
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.T1": {
+  "edges": [
+   204.93453670446377,
+   251.74032168278384,
+   304.342572993239
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.T2": {
+  "edges": [
+   48.68318722741977,
+   87.94716533052588,
+   179.96653222109077
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.prob_meas0_prep1": {
+  "edges": [
+   0.00634765625,
+   0.008544921875,
+   0.01690673828125
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.prob_meas1_prep0": {
+  "edges": [
+   0.001220703125,
+   0.002685546875,
+   0.0087890625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.readout_error": {
+  "edges": [
+   0.004119873046875,
+   0.00555419921875,
+   0.013916015625
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.readout_length": {
+  "edges": [
+   2652.0,
+   2652.0,
+   2652.0
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.sx.gate_error": {
+  "edges": [
+   0.00017922923985090903,
+   0.0002163089581855013,
+   0.0002561852017446834
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ },
+ "pos.q3.x.gate_error": {
+  "edges": [
+   0.00017922923985090903,
+   0.0002163089581855013,
+   0.0002561852017446834
+  ],
+  "n_archive_values": 360,
+  "rule": "4 quantile bins, left-closed"
+ }
+}

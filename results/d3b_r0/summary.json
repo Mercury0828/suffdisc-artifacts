@@ -1,0 +1,350 @@
+[
+ {
+  "instance": "d3b-00-near-M200-N100000",
+  "eps": 0.1,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 23.075207100016996,
+   "t_validate": 13.535054100007983,
+   "n_dist": 156663989,
+   "wall_over_cpu": 1.75
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 7.658866899990244,
+   "t_validate": 4.875277699989965,
+   "n_dist": 59363809,
+   "wall_over_cpu": 1.25
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 3.341582399996696,
+   "t_validate": 0.20516079998924397,
+   "n_dist": 1613035,
+   "wall_over_cpu": 1.71
+  },
+  "outputs_identical": true,
+  "speedup": 6.905473017825271,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 97.12373817059147
+ },
+ {
+  "instance": "d3b-00-near-M200-N100000",
+  "eps": 0.2,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 22.55497359999572,
+   "t_validate": 20.84723689997918,
+   "n_dist": 312896561,
+   "wall_over_cpu": 1.18
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 5.963910000020405,
+   "t_validate": 1.169610900018597,
+   "n_dist": 20103151,
+   "wall_over_cpu": 2.1
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 2.630208799993852,
+   "t_validate": 0.061761299992213026,
+   "n_dist": 523127,
+   "wall_over_cpu": 1.36
+  },
+  "outputs_identical": true,
+  "speedup": 8.575354777935667,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 598.1273400149486
+ },
+ {
+  "instance": "d3b-01-near-M200-N300000",
+  "eps": 0.1,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 190.57176199997775,
+   "t_validate": 187.17285059997812,
+   "n_dist": 1407407285,
+   "wall_over_cpu": 2.19
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 119.06583300000057,
+   "t_validate": 91.23299990000669,
+   "n_dist": 572363140,
+   "wall_over_cpu": 2.64
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 25.04431649998878,
+   "t_validate": 1.354100800002925,
+   "n_dist": 8427533,
+   "wall_over_cpu": 5.87
+  },
+  "outputs_identical": true,
+  "speedup": 7.609381633555985,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 167.00110044066275
+ },
+ {
+  "instance": "d3b-01-near-M200-N300000",
+  "eps": 0.2,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 408.5900188999949,
+   "t_validate": 387.7112971000024,
+   "n_dist": 2813596980,
+   "wall_over_cpu": 2.52
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 70.10332709999057,
+   "t_validate": 29.28970379999373,
+   "n_dist": 178756166,
+   "wall_over_cpu": 5.9
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 51.96149260000675,
+   "t_validate": 0.33374149998417124,
+   "n_dist": 1564852,
+   "wall_over_cpu": 18.9
+  },
+  "outputs_identical": true,
+  "speedup": 7.86332336611789,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 1797.9955804127164
+ },
+ {
+  "instance": "d3b-02-near-M200-N1000000",
+  "eps": 0.1,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 1049.7864171999972,
+   "t_validate": 989.9400484000216,
+   "n_dist": 7816478061,
+   "wall_over_cpu": 2.66
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 321.57867359998636,
+   "t_validate": 284.446987000003,
+   "n_dist": 1829187623,
+   "wall_over_cpu": 3.42
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 25.796832399995765,
+   "t_validate": 1.5701905000023544,
+   "n_dist": 5566642,
+   "wall_over_cpu": 2.56
+  },
+  "outputs_identical": true,
+  "speedup": 40.69439227740882,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 1404.163957552866
+ },
+ {
+  "instance": "d3b-02-near-M200-N1000000",
+  "eps": 0.2,
+  "PC-pairwise": {
+   "status": "timeout",
+   "t": 3641.951096600009,
+   "t_validate": 0.0,
+   "n_dist": 25384896467,
+   "wall_over_cpu": 3.24
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 12.091038999991724,
+   "t_validate": 0.44597349999821745,
+   "n_dist": 4999960,
+   "wall_over_cpu": 2.38
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 21.84900740001467,
+   "t_validate": 0.686212099972181,
+   "n_dist": 4999960,
+   "wall_over_cpu": 3.78
+  },
+  "outputs_identical": true,
+  "speedup": 166.68725630975638,
+  "speedup_is_lower_bound": true,
+  "dist_ratio": 5077.019909559276
+ },
+ {
+  "instance": "d3b-03-mixed-M200-N100000",
+  "eps": 0.1,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 7.708505799993873,
+   "t_validate": 2.3495294000022113,
+   "n_dist": 13420666,
+   "wall_over_cpu": 1.7
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 30.517300300009083,
+   "t_validate": 0.29110609999042936,
+   "n_dist": 499592,
+   "wall_over_cpu": 8.17
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 33.02817099998356,
+   "t_validate": 0.22668849999899976,
+   "n_dist": 499592,
+   "wall_over_cpu": 8.7
+  },
+  "outputs_identical": true,
+  "speedup": 0.2333918460092056,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 26.8632524139698
+ },
+ {
+  "instance": "d3b-03-mixed-M200-N100000",
+  "eps": 0.2,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 34.30062039999757,
+   "t_validate": 3.1259007999906316,
+   "n_dist": 13420666,
+   "wall_over_cpu": 7.62
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 30.14081630000146,
+   "t_validate": 0.4533739000034984,
+   "n_dist": 499592,
+   "wall_over_cpu": 8.46
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 5.9982790000212844,
+   "t_validate": 0.14010759998927824,
+   "n_dist": 499592,
+   "wall_over_cpu": 1.63
+  },
+  "outputs_identical": true,
+  "speedup": 5.718410297332928,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 26.8632524139698
+ },
+ {
+  "instance": "d3b-04-mixed-M200-N300000",
+  "eps": 0.1,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 78.22307229999569,
+   "t_validate": 39.1821436000173,
+   "n_dist": 118375158,
+   "wall_over_cpu": 3.3
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 20.835923399979947,
+   "t_validate": 0.4410444999812171,
+   "n_dist": 1499592,
+   "wall_over_cpu": 2.37
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 26.706839699996635,
+   "t_validate": 1.229573899996467,
+   "n_dist": 1499592,
+   "wall_over_cpu": 3.12
+  },
+  "outputs_identical": true,
+  "speedup": 2.9289527768426136,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 78.93824320215099
+ },
+ {
+  "instance": "d3b-04-mixed-M200-N300000",
+  "eps": 0.2,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 38.21560809999937,
+   "t_validate": 24.96854890001123,
+   "n_dist": 118375158,
+   "wall_over_cpu": 1.72
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 38.38418449999881,
+   "t_validate": 1.1031146000023,
+   "n_dist": 1499592,
+   "wall_over_cpu": 4.25
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 44.05664379999507,
+   "t_validate": 1.5886786000046413,
+   "n_dist": 1499592,
+   "wall_over_cpu": 4.96
+  },
+  "outputs_identical": true,
+  "speedup": 0.8674198668760975,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 78.93824320215099
+ },
+ {
+  "instance": "d3b-05-mixed-M200-N1000000",
+  "eps": 0.1,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 497.182856600004,
+   "t_validate": 414.5196704000118,
+   "n_dist": 1306251895,
+   "wall_over_cpu": 2.53
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 99.08208970000851,
+   "t_validate": 22.411743799981195,
+   "n_dist": 5164402,
+   "wall_over_cpu": 1.95
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 92.96831659998861,
+   "t_validate": 41.13498659993638,
+   "n_dist": 5164402,
+   "wall_over_cpu": 1.31
+  },
+  "outputs_identical": true,
+  "speedup": 5.347874144470256,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 252.93381402144914
+ },
+ {
+  "instance": "d3b-05-mixed-M200-N1000000",
+  "eps": 0.2,
+  "PC-pairwise": {
+   "status": "complete",
+   "t": 223.94194419999258,
+   "t_validate": 119.20414139999775,
+   "n_dist": 4134811,
+   "wall_over_cpu": 3.63
+  },
+  "SUFFDISC-1-pivot-only": {
+   "status": "complete",
+   "t": 220.6356681000034,
+   "t_validate": 129.0248750000028,
+   "n_dist": 4147108,
+   "wall_over_cpu": 2.28
+  },
+  "SUFFDISC-1": {
+   "status": "complete",
+   "t": 248.76201969999238,
+   "t_validate": 123.71124160001636,
+   "n_dist": 4147108,
+   "wall_over_cpu": 2.7
+  },
+  "outputs_identical": true,
+  "speedup": 0.9002256231480478,
+  "speedup_is_lower_bound": false,
+  "dist_ratio": 0.9970348011192378
+ }
+]

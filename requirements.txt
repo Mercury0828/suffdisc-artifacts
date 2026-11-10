@@ -1,0 +1,6 @@
+numpy==2.2.6
+scipy==1.18.1
+numba==0.68.1
+pyyaml==6.0.3
+qiskit==2.6.2
+qiskit-aer==0.18.2

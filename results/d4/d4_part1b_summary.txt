@@ -1,0 +1,1 @@
+D4 part 1b: instances 24 (M 66-128), outputs checked 144, failures 0; B3 cover sizes 450-255217 (initial capacity 64 => growth exercised when > 64); SUFFDISC-0 resume exercised and identical 35, not exercisable (finished in its first iteration, no checkpoint) 13

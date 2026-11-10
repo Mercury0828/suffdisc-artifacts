@@ -1,0 +1,68 @@
+{
+ "method": "SUFFDISC-1-pivot-only",
+ "version": "v1-net",
+ "validator": {
+  "pivot": true,
+  "net": false,
+  "net_h": 0.125,
+  "net_min": 256,
+  "net_kmax_frac": 0.25
+ },
+ "rule": "v1",
+ "kl_refined_pairs": 0,
+ "kl_upper_nm": 0,
+ "n_canonical": 0,
+ "status": "complete",
+ "eps": 0.2,
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "key_width": 6,
+  "block": 1024,
+  "seed": 0
+ },
+ "cover_plus": 7271,
+ "cover_minus": 7271,
+ "resumed": 0,
+ "n_dist": 4999960,
+ "t_sample": 5.700872999994317,
+ "t_validate": 0.44597349999821745,
+ "t_hitting": 0.06301710000843741,
+ "iterations": 1,
+ "n_pivot_certified_groups": 16,
+ "n_full_groups": 0,
+ "irreducible_seen": 0,
+ "n_boundary": 0,
+ "n_net_groups": 0,
+ "n_net_abandoned": 0,
+ "n_net_pairs_certified": 0,
+ "t_labels": 4.6000059228390455e-06,
+ "S": [
+  21
+ ],
+ "certified_sufficient_exists": true,
+ "labels": {
+  "21": "certified_needed"
+ },
+ "t_total": 12.091038999991724,
+ "job": {
+  "instance": "data/sim/d3b-02-near-M200-N1000000",
+  "eps": 0.2,
+  "rep": 0,
+  "time_limit": 3600,
+  "batch": "d3b_r0",
+  "id": "d3b-02-near-M200-N1000000__e0.2__SUFFDISC-1-pivot-only__r0",
+  "method": "SUFFDISC-1-pivot-only",
+  "knobs": {
+   "rounds": 2,
+   "window": 2,
+   "pivot": true,
+   "net": false
+  }
+ },
+ "relation_sha256": "1ebcb21ac5f9ccdfe5000c86b1d44f01357172a3ab6bc6aa5b1021913415ae8b",
+ "t_load": 8.988208299997495,
+ "t_cpu": 5.078125,
+ "peak_mem_bytes": 1765847040,
+ "core": 30
+}

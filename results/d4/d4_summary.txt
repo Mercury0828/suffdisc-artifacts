@@ -1,0 +1,5 @@
+r2; instances 1000 finite-shot 500 {'far': 489, 'near': 511}
+outputs 6000 failures 0 | C6 vs B0 disagreements 0 | cases without certified-sufficient set 246
+mutations caught/tested {'M1_drop_field': (918, 918), 'M2_misbin': (56, 918), 'M3_radius_zero': (31, 418), 'M3g_all_radii_zero': (418, 418), 'M4_cross_task': (267, 909), 'M4g_all_tasks_merged': (808, 918)}
+pre-registered rule 'each of M1-M4 caught on >= 1 instance': PASS | zero failures and zero disagreements: PASS
+C6 vs B0 checks performed (minimal sets + single deletions + no-solution full sets): 2134332

@@ -1,0 +1,632 @@
+{
+ "probe-00-far-M200-N10000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.036200284957886
+ },
+ "probe-00-far-M200-N10000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.028437376022339
+ },
+ "probe-00-far-M200-N10000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.019913911819458
+ },
+ "probe-00-far-M200-N10000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.009822130203247
+ },
+ "probe-00-far-M200-N10000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.034899473190308
+ },
+ "probe-00-far-M200-N10000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.0272791385650635
+ },
+ "probe-01-far-M200-N100000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 10.067333459854126
+ },
+ "probe-01-far-M200-N100000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 10.059471368789673
+ },
+ "probe-01-far-M200-N100000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.068679332733154
+ },
+ "probe-01-far-M200-N100000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 10.065977096557617
+ },
+ "probe-01-far-M200-N100000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.064152479171753
+ },
+ "probe-01-far-M200-N100000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 10.094833612442017
+ },
+ "probe-02-far-M800-N10000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.017800331115723
+ },
+ "probe-02-far-M800-N10000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.014523267745972
+ },
+ "probe-02-far-M800-N10000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.004337310791016
+ },
+ "probe-02-far-M800-N10000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.017164945602417
+ },
+ "probe-02-far-M800-N10000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.007141351699829
+ },
+ "probe-02-far-M800-N10000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.041334867477417
+ },
+ "probe-03-far-M800-N100000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 16.046222925186157
+ },
+ "probe-03-far-M800-N100000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 16.03536629676819
+ },
+ "probe-03-far-M800-N100000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 16.04459810256958
+ },
+ "probe-03-far-M800-N100000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 16.04386568069458
+ },
+ "probe-03-far-M800-N100000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 14.101388454437256
+ },
+ "probe-03-far-M800-N100000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 14.091017007827759
+ },
+ "probe-04-near-M200-N10000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.019547462463379
+ },
+ "probe-04-near-M200-N10000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.014776229858398
+ },
+ "probe-04-near-M200-N10000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.0168068408966064
+ },
+ "probe-04-near-M200-N10000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.017549753189087
+ },
+ "probe-04-near-M200-N10000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.023218870162964
+ },
+ "probe-04-near-M200-N10000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.039370536804199
+ },
+ "probe-05-near-M200-N100000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.040956258773804
+ },
+ "probe-05-near-M200-N100000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.031318664550781
+ },
+ "probe-05-near-M200-N100000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.023333311080933
+ },
+ "probe-05-near-M200-N100000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.007635116577148
+ },
+ "probe-05-near-M200-N100000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.035791397094727
+ },
+ "probe-05-near-M200-N100000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.027510404586792
+ },
+ "probe-06-near-M800-N10000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.017824649810791
+ },
+ "probe-06-near-M800-N10000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.0101706981658936
+ },
+ "probe-06-near-M800-N10000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.036216974258423
+ },
+ "probe-06-near-M800-N10000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.025886297225952
+ },
+ "probe-06-near-M800-N10000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.0187859535217285
+ },
+ "probe-06-near-M800-N10000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.008626222610474
+ },
+ "probe-07-near-M800-N100000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.035051584243774
+ },
+ "probe-07-near-M800-N100000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.027557849884033
+ },
+ "probe-07-near-M800-N100000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.017127990722656
+ },
+ "probe-07-near-M800-N100000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.039896011352539
+ },
+ "probe-07-near-M800-N100000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.052424192428589
+ },
+ "probe-07-near-M800-N100000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 6.044604301452637
+ },
+ "probe-08-mixed-M200-N10000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.017599582672119
+ },
+ "probe-08-mixed-M200-N10000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.0202476978302
+ },
+ "probe-08-mixed-M200-N10000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.037364721298218
+ },
+ "probe-08-mixed-M200-N10000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.038057327270508
+ },
+ "probe-08-mixed-M200-N10000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.03020167350769
+ },
+ "probe-08-mixed-M200-N10000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.021673679351807
+ },
+ "probe-09-mixed-M200-N100000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 10.044812202453613
+ },
+ "probe-09-mixed-M200-N100000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.030672550201416
+ },
+ "probe-09-mixed-M200-N100000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.020633935928345
+ },
+ "probe-09-mixed-M200-N100000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.012390851974487
+ },
+ "probe-09-mixed-M200-N100000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.06184434890747
+ },
+ "probe-09-mixed-M200-N100000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 8.053033590316772
+ },
+ "probe-10-mixed-M800-N10000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.01365065574646
+ },
+ "probe-10-mixed-M800-N10000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.005148649215698
+ },
+ "probe-10-mixed-M800-N10000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.01776123046875
+ },
+ "probe-10-mixed-M800-N10000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.007686138153076
+ },
+ "probe-10-mixed-M800-N10000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.0351362228393555
+ },
+ "probe-10-mixed-M800-N10000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 4.028264045715332
+ },
+ "probe-11-mixed-M800-N100000__e0.1__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 12.046346426010132
+ },
+ "probe-11-mixed-M800-N100000__e0.1__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 12.038301467895508
+ },
+ "probe-11-mixed-M800-N100000__e0.1__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 12.051157712936401
+ },
+ "probe-11-mixed-M800-N100000__e0.2__S0__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 12.040331840515137
+ },
+ "probe-11-mixed-M800-N100000__e0.2__S0__r1": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 12.049803733825684
+ },
+ "probe-11-mixed-M800-N100000__e0.2__S0__r2": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 14.049853801727295
+ },
+ "probe-01-far-M200-N100000__e0.1__B3__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 3018.3980600833893
+ },
+ "probe-01-far-M200-N100000__e0.2__B3__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 3685.9802856445312
+ },
+ "probe-03-far-M800-N100000__e0.1__B3__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 11463.260241746902
+ },
+ "probe-03-far-M800-N100000__e0.2__B3__r0": {
+  "status": "running",
+  "core": 0,
+  "started": 1794180680.0346785
+ },
+ "probe-09-mixed-M200-N100000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 6.1331281661987305
+ },
+ "probe-09-mixed-M200-N100000__e0.2__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 113.17835259437561
+ },
+ "probe-11-mixed-M800-N100000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 57.45081090927124
+ },
+ "probe-11-mixed-M800-N100000__e0.2__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 22.59038543701172
+ },
+ "probe-05-near-M200-N100000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 12.313836812973022
+ },
+ "probe-05-near-M200-N100000__e0.2__B3__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 886.354763507843
+ },
+ "probe-07-near-M800-N100000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 3221225773,
+  "wall": 2.036710500717163
+ },
+ "probe-07-near-M800-N100000__e0.2__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 10.213079452514648
+ },
+ "probe-00-far-M200-N10000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 104.83486318588257
+ },
+ "probe-00-far-M200-N10000__e0.2__B3__r0": {
+  "status": "running",
+  "core": 2,
+  "started": 1794089283.2087429
+ },
+ "probe-02-far-M800-N10000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 12.33143925666809
+ },
+ "probe-02-far-M800-N10000__e0.2__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 8.177170038223267
+ },
+ "probe-08-mixed-M200-N10000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 271.081955909729
+ },
+ "probe-08-mixed-M200-N10000__e0.2__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 94.19926476478577
+ },
+ "probe-10-mixed-M800-N10000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 18.40687322616577
+ },
+ "probe-10-mixed-M800-N10000__e0.2__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 28.63025403022766
+ },
+ "probe-04-near-M200-N10000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 102.25340843200684
+ },
+ "probe-04-near-M200-N10000__e0.2__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 6.1316492557525635
+ },
+ "probe-06-near-M800-N10000__e0.1__B3__r0": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 4.0354344844818115
+ },
+ "probe-06-near-M800-N10000__e0.2__B3__r0": {
+  "status": "done",
+  "returncode": 0,
+  "wall": 12.267177104949951
+ },
+ "probe-01-far-M200-N100000__e0.1__B3__r1": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 2.0295631885528564
+ },
+ "probe-01-far-M200-N100000__e0.2__B3__r1": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 2.030306100845337
+ },
+ "probe-03-far-M800-N100000__e0.1__B3__r1": {
+  "status": "failed",
+  "returncode": 1,
+  "wall": 4.058151483535767
+ },
+ "probe-03-far-M800-N100000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-09-mixed-M200-N100000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-09-mixed-M200-N100000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-11-mixed-M800-N100000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-11-mixed-M800-N100000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-05-near-M200-N100000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-05-near-M200-N100000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-07-near-M800-N100000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-07-near-M800-N100000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-00-far-M200-N10000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-00-far-M200-N10000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-02-far-M800-N10000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-02-far-M800-N10000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-08-mixed-M200-N10000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-08-mixed-M200-N10000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-10-mixed-M800-N10000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-10-mixed-M800-N10000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-04-near-M200-N10000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-04-near-M200-N10000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-06-near-M800-N10000__e0.1__B3__r1": {
+  "status": "pending"
+ },
+ "probe-06-near-M800-N10000__e0.2__B3__r1": {
+  "status": "pending"
+ },
+ "probe-01-far-M200-N100000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-01-far-M200-N100000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-03-far-M800-N100000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-03-far-M800-N100000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-09-mixed-M200-N100000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-09-mixed-M200-N100000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-11-mixed-M800-N100000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-11-mixed-M800-N100000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-05-near-M200-N100000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-05-near-M200-N100000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-07-near-M800-N100000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-07-near-M800-N100000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-00-far-M200-N10000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-00-far-M200-N10000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-02-far-M800-N10000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-02-far-M800-N10000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-08-mixed-M200-N10000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-08-mixed-M200-N10000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-10-mixed-M800-N10000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-10-mixed-M800-N10000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-04-near-M200-N10000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-04-near-M200-N10000__e0.2__B3__r2": {
+  "status": "pending"
+ },
+ "probe-06-near-M800-N10000__e0.1__B3__r2": {
+  "status": "pending"
+ },
+ "probe-06-near-M800-N10000__e0.2__B3__r2": {
+  "status": "pending"
+ }
+}

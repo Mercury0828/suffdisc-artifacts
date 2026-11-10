@@ -1,0 +1,1234 @@
+{
+ "name": "d3",
+ "concurrency": 2,
+ "jobs": [
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.1__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.1,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.1__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.1,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.1__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.2__S0__r0",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.2,
+   "rep": 1,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.2__S0__r1",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.2,
+   "rep": 2,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.2__S0__r2",
+   "method": "SUFFDISC-0",
+   "knobs": {
+    "rounds": 2,
+    "window": 2
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-01-far-M200-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-01-far-M200-N100000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-03-far-M800-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-03-far-M800-N100000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-09-mixed-M200-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-09-mixed-M200-N100000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-11-mixed-M800-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-11-mixed-M800-N100000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-05-near-M200-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-05-near-M200-N100000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-07-near-M800-N100000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-07-near-M800-N100000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-00-far-M200-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-00-far-M200-N10000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-02-far-M800-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-02-far-M800-N10000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-08-mixed-M200-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-08-mixed-M200-N10000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-10-mixed-M800-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-10-mixed-M800-N10000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-04-near-M200-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-04-near-M200-N10000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.1,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.1__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  },
+  {
+   "instance": "data/sim/probe-06-near-M800-N10000",
+   "eps": 0.2,
+   "rep": 0,
+   "time_limit": 14400,
+   "batch": "d3",
+   "id": "probe-06-near-M800-N10000__e0.2__B3__r0",
+   "method": "B3",
+   "knobs": {
+    "block": 512
+   }
+  }
+ ],
+ "mem_cap_bytes": 12000000000.0,
+ "skip_rep_if_median_censored": false,
+ "min_free_bytes_to_launch": 14000000000.0,
+ "amendment": "A-008 (protocol v1.5 s19, authors D-014)"
+}

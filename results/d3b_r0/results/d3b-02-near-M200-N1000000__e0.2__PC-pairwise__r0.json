@@ -1,0 +1,60 @@
+{
+ "method": "PC-pairwise",
+ "version": "v1-net",
+ "validator": {
+  "pivot": false,
+  "net": false,
+  "net_h": 0.125,
+  "net_min": 256,
+  "net_kmax_frac": 0.25
+ },
+ "rule": "v1",
+ "kl_refined_pairs": 0,
+ "kl_upper_nm": 0,
+ "n_canonical": 0,
+ "status": "timeout",
+ "eps": 0.2,
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "key_width": 6,
+  "block": 1024,
+  "seed": 0
+ },
+ "cover_plus": 7271,
+ "cover_minus": 7271,
+ "resumed": 0,
+ "n_dist": 25384896467,
+ "t_sample": 34.23908310002298,
+ "t_validate": 0.0,
+ "t_hitting": 0.11964669998269528,
+ "iterations": 1,
+ "n_pivot_certified_groups": 0,
+ "n_full_groups": 13,
+ "irreducible_seen": 0,
+ "n_boundary": 0,
+ "n_net_groups": 0,
+ "n_net_abandoned": 0,
+ "n_net_pairs_certified": 0,
+ "t_total": 3641.951096600009,
+ "job": {
+  "instance": "data/sim/d3b-02-near-M200-N1000000",
+  "eps": 0.2,
+  "rep": 0,
+  "time_limit": 3600,
+  "batch": "d3b_r0",
+  "id": "d3b-02-near-M200-N1000000__e0.2__PC-pairwise__r0",
+  "method": "PC-pairwise",
+  "knobs": {
+   "rounds": 2,
+   "window": 2,
+   "pivot": false,
+   "net": false
+  }
+ },
+ "relation_sha256": "1ebcb21ac5f9ccdfe5000c86b1d44f01357172a3ab6bc6aa5b1021913415ae8b",
+ "t_load": 12.560847500019008,
+ "t_cpu": 1124.40625,
+ "peak_mem_bytes": 1765199872,
+ "core": 30
+}

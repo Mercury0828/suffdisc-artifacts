@@ -1,0 +1,1259 @@
+version: fields_v1
+frozen: '2026-11-07'
+backend: ibm_cleveland
+layouts:
+  L0:
+  - 90
+  - 91
+  - 98
+  - 111
+  L1:
+  - 17
+  - 27
+  - 26
+  - 25
+  L2:
+  - 142
+  - 143
+  - 144
+  - 145
+  L3:
+  - 43
+  - 56
+  - 63
+  - 62
+archive:
+  dir: data/archive/cleveland_daily
+  epochs: 45
+  first: '2026-09-20 06:56:06-05:00'
+  last: '2026-11-06 05:36:37-06:00'
+bins_file: fields_v1_bins.json
+bins_sha256: dfd474fbd5b29a6264906f2b241ef4f1d9e1551c45210859df016e59797f03e2
+units:
+  T1: us
+  T2: us
+  readout_length: ns
+  gate_length: ns
+  errors_and_probabilities: ''
+identifier_rule: declared identifier OR > 0.9 N distinct non-missing values on the analysed relation (values only; A-002)
+binning: 4 bins; edges = numpy default quantiles 0.25/0.5/0.75 of archive values; bin = searchsorted(edges, v, side='right')
+orientation: 'forward: logical i -> segment[i]; reversed: logical i -> segment[3-i]'
+meaningful_rule: not constant on the pilot, not an identifier, missing in < 50 % of records
+n_fields: 135
+fields:
+- name: exec.segment
+  family: execution
+  granularity: record
+  kind: categorical
+  path: design.segment
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: exec.orientation
+  family: execution
+  granularity: record
+  kind: categorical
+  path: design.orientation
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: exec.dd
+  family: execution
+  granularity: record
+  kind: categorical
+  path: design.dd
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: exec.shots
+  family: execution
+  granularity: record
+  kind: integer
+  path: design.shots
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: exec.opt_level
+  family: execution
+  granularity: record
+  kind: integer
+  path: design.opt_level
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: exec.seed_transpiler
+  family: execution
+  granularity: record
+  kind: integer
+  path: design.seed_transpiler
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: circ.depth
+  family: transpiled_circuit
+  granularity: record
+  kind: integer
+  path: isa_circuit.depth
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: circ.n_cz
+  family: transpiled_circuit
+  granularity: record
+  kind: integer
+  path: isa_circuit.n_cz
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: circ.n_sx
+  family: transpiled_circuit
+  granularity: record
+  kind: integer
+  path: isa_circuit.n_sx
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: circ.n_x
+  family: transpiled_circuit
+  granularity: record
+  kind: integer
+  path: isa_circuit.n_x
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: circ.n_rz
+  family: transpiled_circuit
+  granularity: record
+  kind: integer
+  path: isa_circuit.n_rz
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: calib.epoch
+  family: calibration_time
+  granularity: record
+  kind: categorical
+  path: snapshot.value_epoch (fallback snapshot.last_update_date; protocol v1.3 §17)
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+  note: 'coarse time: the calibration epoch, not an exact timestamp'
+- name: calib.age_bin
+  family: calibration_time
+  granularity: record
+  kind: categorical
+  path: hours(exec_start - snapshot.last_update_date) in [0,4),[4,8),[8,16),>=16
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.T1
+  family: calibration_positional
+  granularity: logical qubit 0 (physical = layout[0])
+  kind: continuous
+  path: snapshot.qubits[layout[0]].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.T2
+  family: calibration_positional
+  granularity: logical qubit 0 (physical = layout[0])
+  kind: continuous
+  path: snapshot.qubits[layout[0]].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.readout_error
+  family: calibration_positional
+  granularity: logical qubit 0 (physical = layout[0])
+  kind: continuous
+  path: snapshot.qubits[layout[0]].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.prob_meas0_prep1
+  family: calibration_positional
+  granularity: logical qubit 0 (physical = layout[0])
+  kind: continuous
+  path: snapshot.qubits[layout[0]].prob_meas0_prep1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.prob_meas1_prep0
+  family: calibration_positional
+  granularity: logical qubit 0 (physical = layout[0])
+  kind: continuous
+  path: snapshot.qubits[layout[0]].prob_meas1_prep0
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.readout_length
+  family: calibration_positional
+  granularity: logical qubit 0 (physical = layout[0])
+  kind: continuous
+  path: snapshot.qubits[layout[0]].readout_length
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.sx.gate_error
+  family: calibration_positional
+  granularity: logical qubit 0
+  kind: continuous
+  path: snapshot.gates[sx, layout[0]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q0.x.gate_error
+  family: calibration_positional
+  granularity: logical qubit 0
+  kind: continuous
+  path: snapshot.gates[x, layout[0]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.T1
+  family: calibration_positional
+  granularity: logical qubit 1 (physical = layout[1])
+  kind: continuous
+  path: snapshot.qubits[layout[1]].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.T2
+  family: calibration_positional
+  granularity: logical qubit 1 (physical = layout[1])
+  kind: continuous
+  path: snapshot.qubits[layout[1]].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.readout_error
+  family: calibration_positional
+  granularity: logical qubit 1 (physical = layout[1])
+  kind: continuous
+  path: snapshot.qubits[layout[1]].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.prob_meas0_prep1
+  family: calibration_positional
+  granularity: logical qubit 1 (physical = layout[1])
+  kind: continuous
+  path: snapshot.qubits[layout[1]].prob_meas0_prep1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.prob_meas1_prep0
+  family: calibration_positional
+  granularity: logical qubit 1 (physical = layout[1])
+  kind: continuous
+  path: snapshot.qubits[layout[1]].prob_meas1_prep0
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.readout_length
+  family: calibration_positional
+  granularity: logical qubit 1 (physical = layout[1])
+  kind: continuous
+  path: snapshot.qubits[layout[1]].readout_length
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.sx.gate_error
+  family: calibration_positional
+  granularity: logical qubit 1
+  kind: continuous
+  path: snapshot.gates[sx, layout[1]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q1.x.gate_error
+  family: calibration_positional
+  granularity: logical qubit 1
+  kind: continuous
+  path: snapshot.gates[x, layout[1]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.T1
+  family: calibration_positional
+  granularity: logical qubit 2 (physical = layout[2])
+  kind: continuous
+  path: snapshot.qubits[layout[2]].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.T2
+  family: calibration_positional
+  granularity: logical qubit 2 (physical = layout[2])
+  kind: continuous
+  path: snapshot.qubits[layout[2]].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.readout_error
+  family: calibration_positional
+  granularity: logical qubit 2 (physical = layout[2])
+  kind: continuous
+  path: snapshot.qubits[layout[2]].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.prob_meas0_prep1
+  family: calibration_positional
+  granularity: logical qubit 2 (physical = layout[2])
+  kind: continuous
+  path: snapshot.qubits[layout[2]].prob_meas0_prep1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.prob_meas1_prep0
+  family: calibration_positional
+  granularity: logical qubit 2 (physical = layout[2])
+  kind: continuous
+  path: snapshot.qubits[layout[2]].prob_meas1_prep0
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.readout_length
+  family: calibration_positional
+  granularity: logical qubit 2 (physical = layout[2])
+  kind: continuous
+  path: snapshot.qubits[layout[2]].readout_length
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.sx.gate_error
+  family: calibration_positional
+  granularity: logical qubit 2
+  kind: continuous
+  path: snapshot.gates[sx, layout[2]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q2.x.gate_error
+  family: calibration_positional
+  granularity: logical qubit 2
+  kind: continuous
+  path: snapshot.gates[x, layout[2]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.T1
+  family: calibration_positional
+  granularity: logical qubit 3 (physical = layout[3])
+  kind: continuous
+  path: snapshot.qubits[layout[3]].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.T2
+  family: calibration_positional
+  granularity: logical qubit 3 (physical = layout[3])
+  kind: continuous
+  path: snapshot.qubits[layout[3]].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.readout_error
+  family: calibration_positional
+  granularity: logical qubit 3 (physical = layout[3])
+  kind: continuous
+  path: snapshot.qubits[layout[3]].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.prob_meas0_prep1
+  family: calibration_positional
+  granularity: logical qubit 3 (physical = layout[3])
+  kind: continuous
+  path: snapshot.qubits[layout[3]].prob_meas0_prep1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.prob_meas1_prep0
+  family: calibration_positional
+  granularity: logical qubit 3 (physical = layout[3])
+  kind: continuous
+  path: snapshot.qubits[layout[3]].prob_meas1_prep0
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.readout_length
+  family: calibration_positional
+  granularity: logical qubit 3 (physical = layout[3])
+  kind: continuous
+  path: snapshot.qubits[layout[3]].readout_length
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.sx.gate_error
+  family: calibration_positional
+  granularity: logical qubit 3
+  kind: continuous
+  path: snapshot.gates[sx, layout[3]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.q3.x.gate_error
+  family: calibration_positional
+  granularity: logical qubit 3
+  kind: continuous
+  path: snapshot.gates[x, layout[3]].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.e01.cz.gate_error
+  family: calibration_positional
+  granularity: logical edge (0, 1)
+  kind: continuous
+  path: snapshot.gates[cz, (layout[0], layout[1])].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.e01.cz.gate_length
+  family: calibration_positional
+  granularity: logical edge (0, 1)
+  kind: continuous
+  path: snapshot.gates[cz, (layout[0], layout[1])].gate_length
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.e12.cz.gate_error
+  family: calibration_positional
+  granularity: logical edge (1, 2)
+  kind: continuous
+  path: snapshot.gates[cz, (layout[1], layout[2])].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.e12.cz.gate_length
+  family: calibration_positional
+  granularity: logical edge (1, 2)
+  kind: continuous
+  path: snapshot.gates[cz, (layout[1], layout[2])].gate_length
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.e23.cz.gate_error
+  family: calibration_positional
+  granularity: logical edge (2, 3)
+  kind: continuous
+  path: snapshot.gates[cz, (layout[2], layout[3])].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: pos.e23.cz.gate_length
+  family: calibration_positional
+  granularity: logical edge (2, 3)
+  kind: continuous
+  path: snapshot.gates[cz, (layout[2], layout[3])].gate_length
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q17.T1
+  family: calibration_absolute
+  granularity: physical qubit 17
+  kind: continuous
+  path: snapshot.qubits[17].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q17.T2
+  family: calibration_absolute
+  granularity: physical qubit 17
+  kind: continuous
+  path: snapshot.qubits[17].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q17.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 17
+  kind: continuous
+  path: snapshot.qubits[17].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q17.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 17
+  kind: continuous
+  path: snapshot.gates[sx,17].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q25.T1
+  family: calibration_absolute
+  granularity: physical qubit 25
+  kind: continuous
+  path: snapshot.qubits[25].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q25.T2
+  family: calibration_absolute
+  granularity: physical qubit 25
+  kind: continuous
+  path: snapshot.qubits[25].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q25.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 25
+  kind: continuous
+  path: snapshot.qubits[25].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q25.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 25
+  kind: continuous
+  path: snapshot.gates[sx,25].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q26.T1
+  family: calibration_absolute
+  granularity: physical qubit 26
+  kind: continuous
+  path: snapshot.qubits[26].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q26.T2
+  family: calibration_absolute
+  granularity: physical qubit 26
+  kind: continuous
+  path: snapshot.qubits[26].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q26.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 26
+  kind: continuous
+  path: snapshot.qubits[26].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q26.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 26
+  kind: continuous
+  path: snapshot.gates[sx,26].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q27.T1
+  family: calibration_absolute
+  granularity: physical qubit 27
+  kind: continuous
+  path: snapshot.qubits[27].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q27.T2
+  family: calibration_absolute
+  granularity: physical qubit 27
+  kind: continuous
+  path: snapshot.qubits[27].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q27.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 27
+  kind: continuous
+  path: snapshot.qubits[27].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q27.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 27
+  kind: continuous
+  path: snapshot.gates[sx,27].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q43.T1
+  family: calibration_absolute
+  granularity: physical qubit 43
+  kind: continuous
+  path: snapshot.qubits[43].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q43.T2
+  family: calibration_absolute
+  granularity: physical qubit 43
+  kind: continuous
+  path: snapshot.qubits[43].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q43.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 43
+  kind: continuous
+  path: snapshot.qubits[43].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q43.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 43
+  kind: continuous
+  path: snapshot.gates[sx,43].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q56.T1
+  family: calibration_absolute
+  granularity: physical qubit 56
+  kind: continuous
+  path: snapshot.qubits[56].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q56.T2
+  family: calibration_absolute
+  granularity: physical qubit 56
+  kind: continuous
+  path: snapshot.qubits[56].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q56.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 56
+  kind: continuous
+  path: snapshot.qubits[56].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q56.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 56
+  kind: continuous
+  path: snapshot.gates[sx,56].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q62.T1
+  family: calibration_absolute
+  granularity: physical qubit 62
+  kind: continuous
+  path: snapshot.qubits[62].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q62.T2
+  family: calibration_absolute
+  granularity: physical qubit 62
+  kind: continuous
+  path: snapshot.qubits[62].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q62.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 62
+  kind: continuous
+  path: snapshot.qubits[62].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q62.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 62
+  kind: continuous
+  path: snapshot.gates[sx,62].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q63.T1
+  family: calibration_absolute
+  granularity: physical qubit 63
+  kind: continuous
+  path: snapshot.qubits[63].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q63.T2
+  family: calibration_absolute
+  granularity: physical qubit 63
+  kind: continuous
+  path: snapshot.qubits[63].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q63.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 63
+  kind: continuous
+  path: snapshot.qubits[63].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q63.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 63
+  kind: continuous
+  path: snapshot.gates[sx,63].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q90.T1
+  family: calibration_absolute
+  granularity: physical qubit 90
+  kind: continuous
+  path: snapshot.qubits[90].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q90.T2
+  family: calibration_absolute
+  granularity: physical qubit 90
+  kind: continuous
+  path: snapshot.qubits[90].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q90.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 90
+  kind: continuous
+  path: snapshot.qubits[90].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q90.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 90
+  kind: continuous
+  path: snapshot.gates[sx,90].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q91.T1
+  family: calibration_absolute
+  granularity: physical qubit 91
+  kind: continuous
+  path: snapshot.qubits[91].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q91.T2
+  family: calibration_absolute
+  granularity: physical qubit 91
+  kind: continuous
+  path: snapshot.qubits[91].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q91.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 91
+  kind: continuous
+  path: snapshot.qubits[91].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q91.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 91
+  kind: continuous
+  path: snapshot.gates[sx,91].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q98.T1
+  family: calibration_absolute
+  granularity: physical qubit 98
+  kind: continuous
+  path: snapshot.qubits[98].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q98.T2
+  family: calibration_absolute
+  granularity: physical qubit 98
+  kind: continuous
+  path: snapshot.qubits[98].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q98.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 98
+  kind: continuous
+  path: snapshot.qubits[98].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q98.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 98
+  kind: continuous
+  path: snapshot.gates[sx,98].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q111.T1
+  family: calibration_absolute
+  granularity: physical qubit 111
+  kind: continuous
+  path: snapshot.qubits[111].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q111.T2
+  family: calibration_absolute
+  granularity: physical qubit 111
+  kind: continuous
+  path: snapshot.qubits[111].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q111.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 111
+  kind: continuous
+  path: snapshot.qubits[111].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q111.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 111
+  kind: continuous
+  path: snapshot.gates[sx,111].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q142.T1
+  family: calibration_absolute
+  granularity: physical qubit 142
+  kind: continuous
+  path: snapshot.qubits[142].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q142.T2
+  family: calibration_absolute
+  granularity: physical qubit 142
+  kind: continuous
+  path: snapshot.qubits[142].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q142.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 142
+  kind: continuous
+  path: snapshot.qubits[142].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q142.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 142
+  kind: continuous
+  path: snapshot.gates[sx,142].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q143.T1
+  family: calibration_absolute
+  granularity: physical qubit 143
+  kind: continuous
+  path: snapshot.qubits[143].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q143.T2
+  family: calibration_absolute
+  granularity: physical qubit 143
+  kind: continuous
+  path: snapshot.qubits[143].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q143.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 143
+  kind: continuous
+  path: snapshot.qubits[143].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q143.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 143
+  kind: continuous
+  path: snapshot.gates[sx,143].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q144.T1
+  family: calibration_absolute
+  granularity: physical qubit 144
+  kind: continuous
+  path: snapshot.qubits[144].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q144.T2
+  family: calibration_absolute
+  granularity: physical qubit 144
+  kind: continuous
+  path: snapshot.qubits[144].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q144.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 144
+  kind: continuous
+  path: snapshot.qubits[144].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q144.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 144
+  kind: continuous
+  path: snapshot.gates[sx,144].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q145.T1
+  family: calibration_absolute
+  granularity: physical qubit 145
+  kind: continuous
+  path: snapshot.qubits[145].T1
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q145.T2
+  family: calibration_absolute
+  granularity: physical qubit 145
+  kind: continuous
+  path: snapshot.qubits[145].T2
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q145.readout_error
+  family: calibration_absolute
+  granularity: physical qubit 145
+  kind: continuous
+  path: snapshot.qubits[145].readout_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.q145.sx.gate_error
+  family: calibration_absolute
+  granularity: physical qubit 145
+  kind: continuous
+  path: snapshot.gates[sx,145].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz17_27.gate_error
+  family: calibration_absolute
+  granularity: coupler (17, 27)
+  kind: continuous
+  path: snapshot.gates[cz,(17, 27)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz25_26.gate_error
+  family: calibration_absolute
+  granularity: coupler (25, 26)
+  kind: continuous
+  path: snapshot.gates[cz,(25, 26)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz26_27.gate_error
+  family: calibration_absolute
+  granularity: coupler (26, 27)
+  kind: continuous
+  path: snapshot.gates[cz,(26, 27)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz43_56.gate_error
+  family: calibration_absolute
+  granularity: coupler (43, 56)
+  kind: continuous
+  path: snapshot.gates[cz,(43, 56)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz56_63.gate_error
+  family: calibration_absolute
+  granularity: coupler (56, 63)
+  kind: continuous
+  path: snapshot.gates[cz,(56, 63)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz62_63.gate_error
+  family: calibration_absolute
+  granularity: coupler (62, 63)
+  kind: continuous
+  path: snapshot.gates[cz,(62, 63)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz90_91.gate_error
+  family: calibration_absolute
+  granularity: coupler (90, 91)
+  kind: continuous
+  path: snapshot.gates[cz,(90, 91)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz91_98.gate_error
+  family: calibration_absolute
+  granularity: coupler (91, 98)
+  kind: continuous
+  path: snapshot.gates[cz,(91, 98)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz98_111.gate_error
+  family: calibration_absolute
+  granularity: coupler (98, 111)
+  kind: continuous
+  path: snapshot.gates[cz,(98, 111)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz142_143.gate_error
+  family: calibration_absolute
+  granularity: coupler (142, 143)
+  kind: continuous
+  path: snapshot.gates[cz,(142, 143)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz143_144.gate_error
+  family: calibration_absolute
+  granularity: coupler (143, 144)
+  kind: continuous
+  path: snapshot.gates[cz,(143, 144)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: abs.cz144_145.gate_error
+  family: calibration_absolute
+  granularity: coupler (144, 145)
+  kind: continuous
+  path: snapshot.gates[cz,(144, 145)].gate_error
+  equality: binned
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: job.id
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: job.job_id
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: true
+- name: job.session_id
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: job.session_id
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: true
+- name: job.creation_time
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: job.creation_date
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: true
+- name: job.exec_span_start
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: job.result.metadata.execution.execution_spans.start
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: true
+- name: job.exec_span_stop
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: job.result.metadata.execution.execution_spans.stop
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: true
+- name: job.backend
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: job.backend
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: job.sdk_version
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: qiskit.__version__
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false
+- name: job.runtime_version
+  family: job_metadata
+  granularity: record
+  kind: categorical
+  path: qiskit_ibm_runtime.__version__
+  equality: exact
+  missing: bottom_equals_only_bottom
+  cost: 1.0
+  identifier: false

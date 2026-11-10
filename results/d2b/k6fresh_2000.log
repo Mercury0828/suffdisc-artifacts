@@ -1,0 +1,13 @@
+n 2000: pairs 2256, true laws inside 96/96, dual upper bounds 98 s, upper-bound validity violations 0
+  eps 0.05 v1: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.05 v2: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.05 kl: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.1 v1: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.1 v2: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.1 kl: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.15 v1: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.15 v2: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.15 kl: u 1.000 cert    0 pass    1 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.2 v1: u 1.000 cert    0 pass    0 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.2 v2: u 0.607 cert    0 pass  887 | exists True S ['exec.segment', 'exec.orientation', 'exec.dd', 'calib.epoch'] gamma 1.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []
+  eps 0.2 kl: u 0.265 cert    0 pass 1659 | exists True S ['exec.segment', 'exec.orientation'] gamma 6.00 all_witnessed False lo-bad 0 | witnessed sets (|S|<=3, gamma>=2) 0 []

@@ -1,0 +1,58 @@
+{
+ "method": "SUFFDISC-0",
+ "version": "v3-incremental",
+ "status": "complete",
+ "eps": 0.2,
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "key_width": 6,
+  "block": 1024,
+  "seed": 0
+ },
+ "cover_plus": 389111,
+ "cover_minus": 389111,
+ "resumed": 0,
+ "n_dist": 506033,
+ "t_sample": 3.292869500000961,
+ "t_validate": 0.6874985000176821,
+ "t_hitting": 0.2265956000192091,
+ "iterations": 2,
+ "n_pivot_certified_groups": 1586,
+ "n_full_groups": 1912,
+ "irreducible_seen": 0,
+ "n_boundary": 0,
+ "t_labels": 4.599976819008589e-06,
+ "S": [
+  15,
+  58,
+  79,
+  184
+ ],
+ "certified_sufficient_exists": true,
+ "labels": {
+  "15": "certified_needed",
+  "58": "certified_needed",
+  "79": "certified_needed",
+  "184": "certified_needed"
+ },
+ "t_total": 4.362258599983761,
+ "job": {
+  "instance": "data/sim/probe-01-far-M200-N100000",
+  "eps": 0.2,
+  "rep": 0,
+  "time_limit": 14400,
+  "batch": "d3",
+  "id": "probe-01-far-M200-N100000__e0.2__S0__r0",
+  "method": "SUFFDISC-0",
+  "knobs": {
+   "rounds": 2,
+   "window": 2
+  }
+ },
+ "relation_sha256": "313f894c273e8d0cac8b0fafa208f8e23b6d9686746b75dee6fd7a2512ed6307",
+ "t_load": 2.165189300023485,
+ "t_cpu": 3.5625,
+ "peak_mem_bytes": 1101709312,
+ "core": 2
+}

@@ -1,0 +1,15 @@
+{
+ "instance": "data/sim/d3b-04-mixed-M200-N300000",
+ "eps": 0.2,
+ "rep": 0,
+ "time_limit": 3600,
+ "batch": "d3b_r0",
+ "id": "d3b-04-mixed-M200-N300000__e0.2__SUFFDISC-1-pivot-only__r0",
+ "method": "SUFFDISC-1-pivot-only",
+ "knobs": {
+  "rounds": 2,
+  "window": 2,
+  "pivot": true,
+  "net": false
+ }
+}

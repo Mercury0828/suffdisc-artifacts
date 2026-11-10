@@ -1,0 +1,32 @@
+{
+ "mfd": {
+  "subsets_tested": 315,
+  "disagreements_vs_B0": 0,
+  "seconds": 7.42,
+  "note": "euclidean metric over 16 RHS columns x_k = sqrt(p_k)/sqrt(2); brute algorithm; empty LHS not tested",
+  "empty_lhs": "rejected: ConfigurationError('lhs_indices cannot be empty')"
+ },
+ "md": {
+  "Custom_doc": "__init__(*args, **kwargs)\nOverloaded function.\n\n1. __init__(self: desbordante.md.column_matches.Custom, comparer: Callable[[object, object], float], left_column: Union[str, int], right_column: Union[str, int], *, column_functions: Union[Callable[[str], object], tuple[Callable[[str], object], Callable[[str], object]]] = None, symmetrical: bool = False, equality_is_max: bool = False, min_sim: float = 0.7, measure_name: str = 'custom_measure', size_limit: int = 0) -> None\n\n2. __init__(self: desbordante.md.column_matches.Custom, comparer: object, left_column: Union[str, int], right_column: Union[str, int], classic_measure: bool, *, column_functions: Union[Callable[[str], object], tuple[Callable[[str], object], Callable[[str], object]]] = None, min_sim: float = 0.7, measure_name: str = 'custom_",
+  "status": "ran",
+  "seconds": 1.49,
+  "n_mds": 49,
+  "sample": [
+   "[] -> custom_measure(law, law)>=0.750239",
+   "[ custom_measure(law, law)>=0.98328 ] -> equality(G, G)>=1",
+   "[ custom_measure(law, law)>=0.995796 ] -> equality(M, M)>=1",
+   "[ custom_measure(law, law)>=0.997303 ] -> equality(R, R)>=1",
+   "[ custom_measure(law, law)>=0.997321 ] -> equality(A, A)>=1",
+   "[ custom_measure(law, law)>=1 ] -> equality(L, L)>=1",
+   "[ equality(A, A)>=1 ] -> custom_measure(law, law)>=0.755223",
+   "[ equality(M, M)>=1 ] -> custom_measure(law, law)>=0.768806",
+   "[ equality(G, G)>=1 ] -> custom_measure(law, law)>=0.87852",
+   "[ equality(R, R)>=1 ] -> custom_measure(law, law)>=0.750565",
+   "[ equality(L, L)>=1 ] -> custom_measure(law, law)>=0.762712",
+   "[ equality(A, A)>=1 | custom_measure(law, law)>=0.982342 ] -> equality(G, G)>=1",
+   "[ equality(A, A)>=1 | custom_measure(law, law)>=0.9943 ] -> equality(M, M)>=1",
+   "[ equality(M, M)>=1 | custom_measure(law, law)>=0.973838 ] -> equality(G, G)>=1",
+   "[ equality(M, M)>=1 | equality(A, A)>=1 ] -> custom_measure(law, law)>=0.775738"
+  ]
+ }
+}
